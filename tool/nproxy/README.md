@@ -1,0 +1,4 @@
+- [Source](https://github.com/goddyZhao/nproxy)
+- [Document](http://goddyzhao.me/nproxy/)
+- [How to install NProxy](https://github.com/goddyZhao/nproxy/wiki/How-to-install-NProxy)
+- [How to set browser's proxy](https://github.com/goddyZhao/nproxy/wiki/How-to-set-browser's-proxy)
