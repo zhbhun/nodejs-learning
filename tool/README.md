@@ -8,3 +8,7 @@
 # 压缩
 - [jszip](https://www.npmjs.com/package/jszip)
 - [archiver](https://www.npmjs.com/package/archiver)
+
+# 格式化
+- [prettier](https://github.com/prettier/prettier)
+- [stylefmt](https://github.com/morishitter/stylefmt)
