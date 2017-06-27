@@ -1,0 +1,1 @@
+- [你不得不知的 package.json 常识](https://nodesource.com/blog/the-basics-of-package-json-in-node-js-and-npm?utm_source=nodeweekly&utm_medium=email)
