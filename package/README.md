@@ -1,1 +1,2 @@
+- [npm5 新版功能特性解析及与 yarn 评测对比](https://cloud.tencent.com/community/article/171211)
 - [你不得不知的 package.json 常识](https://nodesource.com/blog/the-basics-of-package-json-in-node-js-and-npm?utm_source=nodeweekly&utm_medium=email)

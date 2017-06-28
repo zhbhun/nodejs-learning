@@ -6,8 +6,11 @@
 - [如何知道 npm 模块的资源消耗？](http://cost-of-modules.herokuapp.com/)
 - [通过 .npmrc 打磨你的 Node.js 开发环境](https://nodesource.com/blog/configuring-your-npmrc-for-an-optimal-node-js-environment)
 
-# 发布
+# 用法
+## 调试
+- `link`
 
+## 发布
 - [如何发布 Node 模块到 NPM 社区](http://weizhifeng.net/how-to-publish-a-node-module.html)
 
 # 问题
