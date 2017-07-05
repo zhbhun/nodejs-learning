@@ -2,6 +2,7 @@
 - [给 Node.js 新手：提高效率必备的工具和库](https://node.university/blog/725514/node-toolchain)
 
 # 代理
+- [node-http-proxy](https://github.com/nodejitsu/node-http-proxy)
 - [nproxy](https://github.com/goddyZhao/nproxy)
 
 # 加密
