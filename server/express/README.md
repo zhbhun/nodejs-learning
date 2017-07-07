@@ -1,2 +1,3 @@
 - [express-validator](https://github.com/ctavan/express-validator)
 - [How do Express.js Sessions work?](https://medium.com/dailyjs/techniques-for-decomposing-react-components-e8a1081ef5da)
+- [frontexpress](https://github.com/camelaissani/frontexpress)

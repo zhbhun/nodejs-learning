@@ -34,6 +34,9 @@
 # 打包
 - [pkg](https://github.com/zeit/pkg)
 
+# 差异
+- [jsdiff](https://github.com/kpdecker/jsdiff)
+
 # 格式化
 - [JS Beautifier](https://github.com/beautify-web/js-beautify)
 - [prettier](https://github.com/prettier/prettier)
