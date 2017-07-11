@@ -9,6 +9,9 @@
 - [hasha](https://github.com/sindresorhus/hasha)
 - [rev-hash](https://www.npmjs.com/package/rev-hash)
 
+# 调试
+- [debug](https://github.com/visionmedia/debug)
+
 # 压缩
 - [jszip](https://www.npmjs.com/package/jszip)
 - [archiver](https://www.npmjs.com/package/archiver)
@@ -36,6 +39,9 @@
 
 # 差异
 - [jsdiff](https://github.com/kpdecker/jsdiff)
+
+# 监控
+- [nodemon](https://github.com/remy/nodemon) - Monitor for any changes in your node.js application and automatically restart the server - perfect for development.
 
 # 格式化
 - [JS Beautifier](https://github.com/beautify-web/js-beautify)
