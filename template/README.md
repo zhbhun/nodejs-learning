@@ -1,2 +1,3 @@
 - [pug](https://github.com/pugjs/pug)
-- [EJS](http://www.embeddedjs.com/)
+- [EJS1](http://www.embeddedjs.com/)
+- [EJS2](http://ejs.co/)

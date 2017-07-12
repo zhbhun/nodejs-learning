@@ -29,3 +29,10 @@
 # 模板
 - [hackathon-starter](https://github.com/sahat/hackathon-starter)
 - [express-es6-rest-api](https://github.com/developit/express-es6-rest-api)
+
+# TODO
+
+- https://hackernoon.com/hot-reload-all-the-things-ec0fed8ab0
+- https://github.com/ericclemmons/start-server-webpack-plugin
+- https://www.airpair.com/node.js/posts/top-10-mistakes-node-developers-make
+- https://stackoverflow.com/questions/24750395/reload-express-js-routes-changes-without-restarting-server
