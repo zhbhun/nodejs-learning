@@ -43,6 +43,10 @@
 # 监控
 - [nodemon](https://github.com/remy/nodemon) - Monitor for any changes in your node.js application and automatically restart the server - perfect for development.
 
+# 日志
+- https://stackoverflow.com/questions/27040487/complex-console-log-output-in-cli/27041443#27041443
+- https://github.com/cronvel/terminal-kit
+
 # 格式化
 - [JS Beautifier](https://github.com/beautify-web/js-beautify)
 - [prettier](https://github.com/prettier/prettier)
