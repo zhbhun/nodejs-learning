@@ -40,7 +40,8 @@
 # 差异
 - [jsdiff](https://github.com/kpdecker/jsdiff)
 
-# 监控
+# 进程
+- [pm2](https://github.com/Unitech/pm2)
 - [nodemon](https://github.com/remy/nodemon) - Monitor for any changes in your node.js application and automatically restart the server - perfect for development.
 
 # 日志

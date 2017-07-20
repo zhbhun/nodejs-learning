@@ -22,3 +22,7 @@
 - [Update of local dependencies does not work](https://github.com/npm/npm/issues/7426)
 - [npm login 输入正确的用户名和密码时仍出现 Incorrect username or password](https://segmentfault.com/q/1010000003876273)
 - [使用淘宝 NodeJS 镜像加速 Electron Node-Sass 的安装速度](http://zqlu.github.io/2016/05/10/taobao-nodejs-mirror/)
+
+---
+
+- [better-npm-run](https://github.com/benoror/better-npm-run)
