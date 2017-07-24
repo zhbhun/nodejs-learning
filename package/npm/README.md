@@ -26,3 +26,4 @@
 ---
 
 - [better-npm-run](https://github.com/benoror/better-npm-run)
+- [npm-run-all](https://github.com/mysticatea/npm-run-all)

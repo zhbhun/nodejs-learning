@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "file": "compiled.js",
+  "sources": ["original.js"],
+  "names": [],
+  "mappings": ";;AAAA,MAAM,IAAI"
+}
