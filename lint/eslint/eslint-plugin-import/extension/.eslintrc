@@ -1,0 +1,32 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "impliedStrict": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "node": true,
+    "commonjs": true
+  },
+  "plugins": [
+    "eslint-plugin-import"
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".json", ".jsx", ".ios.js", ".android.js"]
+      }
+    }
+  },
+  "rules": {
+    "import/no-unresolved": "error",
+    "import/extensions": ["error", "always", {
+      "js": "never",
+      "json": "never",
+      "jsx": "never"
+    }]
+  }
+}

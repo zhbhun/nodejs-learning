@@ -1,0 +1,18 @@
+{
+  "name": "eslint-plugin-import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:extension": "eslint ./extension",
+    "lint:resolver": "eslint ./resolvers"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.3.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
