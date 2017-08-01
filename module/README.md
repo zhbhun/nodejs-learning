@@ -1,0 +1,1 @@
+- [node-resolve](https://github.com/substack/node-resolve) - Implements the node.js require.resolve() algorithm.
