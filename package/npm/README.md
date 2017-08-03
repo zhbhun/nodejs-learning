@@ -27,3 +27,23 @@
 
 - [better-npm-run](https://github.com/benoror/better-npm-run)
 - [npm-run-all](https://github.com/mysticatea/npm-run-all)
+
+---
+
+
+# 配置
+## 切换服务
+- https://github.com/Pana/nrm
+- [Easy Switching Between Public and Private npm Registries](https://strongloop.com/strongblog/switch-between-configure-public-and-private-npm-registry/)
+
+## 配置多服务
+- https://github.com/npm/npm/issues/100
+- [Associating a scope with a registry](https://docs.npmjs.com/misc/scope#associating-a-scope-with-a-registry)
+- [Is there any way to configure multiple registries in a single npmrc file](https://stackoverflow.com/questions/32633678/is-there-any-way-to-configure-multiple-registries-in-a-single-npmrc-file)
+- [Installing private npm modules](Installing private npm modules)
+
+# 依赖
+- http://semver.org/
+- https://docs.npmjs.com/misc/semver
+- https://docs.npmjs.com/files/package.json#dependencies
+- https://docs.npmjs.com/files/package.json#devdependencies
