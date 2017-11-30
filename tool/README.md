@@ -53,6 +53,7 @@
 - [prettier](https://github.com/prettier/prettier)
 - [CSScomb](http://csscomb.com/)
 - [stylefmt](https://github.com/morishitter/stylefmt)
+- [timeago.js](https://www.npmjs.com/package/timeago.js)
 
 # 浏览器
 - [browserslist](https://github.com/ai/browserslist)

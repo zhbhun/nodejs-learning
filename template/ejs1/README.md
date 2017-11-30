@@ -1,0 +1,2 @@
+- http://www.embeddedjs.com/
+- https://github.com/tj/ejs

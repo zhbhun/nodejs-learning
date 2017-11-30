@@ -30,8 +30,10 @@
 
 ---
 
-
 # 配置
+## 代理服务器
+- [为npm设置代理](http://www.cnblogs.com/walkerwang/p/3624909.html)
+
 ## 切换服务
 - https://github.com/Pana/nrm
 - [Easy Switching Between Public and Private npm Registries](https://strongloop.com/strongblog/switch-between-configure-public-and-private-npm-registry/)
@@ -47,3 +49,4 @@
 - https://docs.npmjs.com/misc/semver
 - https://docs.npmjs.com/files/package.json#dependencies
 - https://docs.npmjs.com/files/package.json#devdependencies
+- [npm 安装git项目的几种方式](http://blog.csdn.net/yiifaa/article/details/53784427)
