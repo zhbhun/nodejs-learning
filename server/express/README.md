@@ -30,6 +30,11 @@
 - [hackathon-starter](https://github.com/sahat/hackathon-starter)
 - [express-es6-rest-api](https://github.com/developit/express-es6-rest-api)
 
+# 常见问题
+## 重定向
+- [express-urlrewrite](https://github.com/kapouer/express-urlrewrite)
+- [In App redirect in expressjs using middleware](https://stackoverflow.com/questions/19079497/in-app-redirect-in-expressjs-using-middleware)
+
 # TODO
 
 - https://hackernoon.com/hot-reload-all-the-things-ec0fed8ab0
