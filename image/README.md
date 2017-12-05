@@ -1,0 +1,2 @@
+- https://github.com/yahoo/blink-diff
+- https://github.com/uber-archive/image-diff
