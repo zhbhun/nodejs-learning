@@ -50,3 +50,7 @@
 - https://docs.npmjs.com/files/package.json#dependencies
 - https://docs.npmjs.com/files/package.json#devdependencies
 - [npm 安装git项目的几种方式](http://blog.csdn.net/yiifaa/article/details/53784427)
+
+# 问题
+## 区分 `~` 和 `^`
+- What's the difference between tilde(~) and caret(^) in package.json?
