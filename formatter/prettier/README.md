@@ -30,3 +30,8 @@
 * [Configure ESLint, Prettier, and Flow in VS Code for React Development](https://hackernoon.com/configure-eslint-prettier-and-flow-in-vs-code-for-react-development-c9d95db07213)
 * [Your last ESLint config](https://medium.com/@netczuk/your-last-eslint-config-9e35bace2f99)
 * [A Prettier JavaScript Formatter](https://jlongster.com/A-Prettier-Formatter)
+
+# 问题
+## 错误的删除括号
+- https://github.com/prettier/prettier/issues/729
+- https://github.com/prettier/prettier/issues/187
