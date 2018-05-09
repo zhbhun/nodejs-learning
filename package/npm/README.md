@@ -54,3 +54,8 @@
 # 问题
 ## 区分 `~` 和 `^`
 - What's the difference between tilde(~) and caret(^) in package.json?
+
+## 并发执行脚本
+- [concurrently](https://github.com/kimmobrunfeldt/concurrently)
+- [npm-run-all](https://github.com/mysticatea/npm-run-all)
+- [better-npm-run](https://github.com/benoror/better-npm-run)
