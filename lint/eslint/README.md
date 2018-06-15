@@ -1,3 +1,12 @@
+## Changelog
+
+### v4.0.0
+
+- [Migrating to v4.0.0](https://eslint.org/docs/user-guide/migrating-to-4.0.0)
+
+
+---
+
 # eslint-plugin-import
 - [Resolvers](https://github.com/benmosher/eslint-plugin-import/wiki/Resolvers)
 
