@@ -1,3 +1,18 @@
+# 日志
+
+- https://github.com/visionmedia/debug
+- https://www.npmjs.com/package/winston
+- https://github.com/log4js-node/log4js-node
+- [signale](https://github.com/klauscfhq/signale)
+
+# 控制台
+
+## 格式化
+
+- [chalk](https://www.npmjs.com/package/chalk)
+
+---
+
 - [NodeJS 工程师必备的 8 个工具](https://zhuanlan.zhihu.com/p/25310451)
 - [给 Node.js 新手：提高效率必备的工具和库](https://node.university/blog/725514/node-toolchain)
 
