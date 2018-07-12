@@ -1,10 +1,12 @@
-- [express-validator](https://github.com/ctavan/express-validator)
-- [How do Express.js Sessions work?](https://medium.com/dailyjs/techniques-for-decomposing-react-components-e8a1081ef5da)
-- [frontexpress](https://github.com/camelaissani/frontexpress)
+Express
+=======
 
----
+## 中间件
 
-# 中间件
+- 校验
+
+    - [express-validator](https://github.com/ctavan/express-validator)
+
 - 日志
 
     - [morgan](https://github.com/expressjs/morgan) - HTTP request logger middleware for node.js.
@@ -26,14 +28,23 @@
 
     - [serve-favicon](https://github.com/expressjs/serve-favicon)
 
-# 模板
+## 模板
+
 - [hackathon-starter](https://github.com/sahat/hackathon-starter)
 - [express-es6-rest-api](https://github.com/developit/express-es6-rest-api)
 
-# 常见问题
-## 重定向
+## 实践
+
+- [Best practices for Express app structure](https://www.terlici.com/2014/08/25/best-practices-express-structure.html)
+- [Get an isomorphic web app up and running in 5 minutes](https://hackernoon.com/get-an-isomorphic-web-app-up-and-running-in-5-minutes-72da028c15dd)
+- [Best Code Components for Node.js](https://www.datree.io/blog/best-code-components-for-node.js?utm_source=social&utm_medium=fb&utm_campaign=apr23&utm_content=nodejs)
+
+## 常见问题
+
+### 重定向
 - [express-urlrewrite](https://github.com/kapouer/express-urlrewrite)
 - [In App redirect in expressjs using middleware](https://stackoverflow.com/questions/19079497/in-app-redirect-in-expressjs-using-middleware)
+
 
 # TODO
 
@@ -41,3 +52,5 @@
 - https://github.com/ericclemmons/start-server-webpack-plugin
 - https://www.airpair.com/node.js/posts/top-10-mistakes-node-developers-make
 - https://stackoverflow.com/questions/24750395/reload-express-js-routes-changes-without-restarting-server
+- [frontexpress](https://github.com/camelaissani/frontexpress)
+- [How do Express.js Sessions work?](https://medium.com/dailyjs/techniques-for-decomposing-react-components-e8a1081ef5da)
