@@ -27,9 +27,16 @@
 # 开源项目
 - [pm2](https://github.com/Unitech/PM2)
 - [nodemon](https://github.com/remy/nodemon/)
+- [forever](https://github.com/foreverjs/forever)
 - [node-supervisor](https://github.com/petruisfan/node-supervisor)
 - [node-dev](https://github.com/fgnass/node-dev)
 - [node-hotswap](https://github.com/rlidwka/node-hotswap)
+
+# 对比
+
+- https://npmcompare.com/compare/forever,node-supervisor,nodemon,pm2
+- https://codeburst.io/dont-use-nodemon-there-are-better-ways-fc016b50b45e
+- [使用 nodemon 或者 Supervisor 监控 Express 4.x 代码改动进行开发](https://segmentfault.com/a/1190000000603336)
 
 # 参考文献
 - [How to HMR on server side? ](https://github.com/webpack/docs/issues/45#issuecomment-149793458)
