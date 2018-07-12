@@ -50,6 +50,8 @@
 - https://docs.npmjs.com/files/package.json#dependencies
 - https://docs.npmjs.com/files/package.json#devdependencies
 - [npm 安装git项目的几种方式](http://blog.csdn.net/yiifaa/article/details/53784427)
+- [你需要知道的几类npm依赖包管理](https://segmentfault.com/a/1190000011442391)
+- https://docs.npmjs.com/files/package.json#dependencies
 
 # 问题
 ## 区分 `~` 和 `^`
