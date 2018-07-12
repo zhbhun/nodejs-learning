@@ -1,0 +1,2 @@
+- [Node.js进程通信模块child_process](http://blog.fens.me/nodejs-child-process/)
+- [你可能想知道的 Node 子进程模块](https://segmentfault.com/a/1190000005004946)
