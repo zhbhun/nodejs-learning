@@ -61,3 +61,11 @@
 - [concurrently](https://github.com/kimmobrunfeldt/concurrently)
 - [npm-run-all](https://github.com/mysticatea/npm-run-all)
 - [better-npm-run](https://github.com/benoror/better-npm-run)
+
+---
+
+## 版本锁
+
+- [package-lock.json 需要写进 .gitignore 吗？](https://www.zhihu.com/question/264560841)
+- [透过 js-beautify@1.7.0 的 Bug 来看，npm 默认的 lock 机制是否重要？](https://www.zhihu.com/question/65536076)
+- [为什么我不使用 shrinkwrap（lock）](https://zhuanlan.zhihu.com/p/22934066)
