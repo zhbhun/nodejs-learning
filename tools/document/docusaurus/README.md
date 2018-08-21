@@ -1,7 +1,11 @@
-- https://github.com/facebook/docusaurus
-- https://docusaurus.io/docs/en/site-creation.html
+Docusaurus
+========
 
-# 安装使用
+- [官方网站](https://docusaurus.io/en/)
+- [代码仓库](https://github.com/facebook/docusaurus)
+
+## 安装使用
+
 - `npm install --global docusaurus-init`
 - `docusaurus-init`
 - `mv docs-examples-from-docusaurus docs`
@@ -9,7 +13,8 @@
 - `mv blog-examples-from-docusaurus blog`
 - `npm start`
 
-# 网站结构
+## 网站结构
+
 ```
 root-of-repo
 ├── docs
