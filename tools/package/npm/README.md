@@ -33,6 +33,7 @@
 # 配置
 ## 代理服务器
 - [为npm设置代理](http://www.cnblogs.com/walkerwang/p/3624909.html)
+- [npm 淘宝镜像配置](https://gist.github.com/52cik/c1de8926e20971f415dd)
 
 ## 切换服务
 - https://github.com/Pana/nrm

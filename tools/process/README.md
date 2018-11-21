@@ -1,6 +1,7 @@
 潜在需求：大项目重启服务器耗时较长，websocket 等长连接被销毁重建。
 
-# 技术难点
+## 技术难点
+
 - 如何更新模块代码
 - 如何使用新模块处理请求
 - 如何释放老模块的资源
@@ -10,7 +11,8 @@
     - 释放旧模块定时器的占用资源
 
 
-# 解决方案
+## 解决方案
+
 - nodemon [+ babel]
 
     - 优点：支持自动刷新 + 可以使用新语法
@@ -24,7 +26,8 @@
 - [nodejs-hot-swapping](http://fex.baidu.com/blog/2015/05/nodejs-hot-swapping/)
 - [node-hotswap](https://github.com/rlidwka/node-hotswap)
 
-# 开源项目
+## 开源项目
+
 - [pm2](https://github.com/Unitech/PM2)
 - [nodemon](https://github.com/remy/nodemon/)
 - [forever](https://github.com/foreverjs/forever)

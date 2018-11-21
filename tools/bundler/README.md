@@ -2,3 +2,4 @@
 - http://browserify.org/
 - https://rollupjs.org/guide/en
 - https://parceljs.org/
+- https://github.com/lukeed/pwa

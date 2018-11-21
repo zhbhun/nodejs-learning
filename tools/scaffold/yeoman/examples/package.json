@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "dependencies": {
+    "generator-webapp": "^3.0.1",
+    "yo": "^2.0.5"
+  }
+}
