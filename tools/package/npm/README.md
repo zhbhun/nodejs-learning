@@ -23,6 +23,10 @@
 - [npm login 输入正确的用户名和密码时仍出现 Incorrect username or password](https://segmentfault.com/q/1010000003876273)
 - [使用淘宝 NodeJS 镜像加速 Electron Node-Sass 的安装速度](http://zqlu.github.io/2016/05/10/taobao-nodejs-mirror/)
 
+### 区分不同的依赖类型
+
+- [What's the difference between dependencies, devDependencies and peerDependencies in npm package.json file?](https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies)
+
 ---
 
 - [better-npm-run](https://github.com/benoror/better-npm-run)
