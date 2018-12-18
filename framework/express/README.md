@@ -30,6 +30,8 @@ Express
 
 ## 模板
 
+- https://github.com/expressjs/generator
+- [Express application generator](https://expressjs.com/en/starter/generator.html)
 - [hackathon-starter](https://github.com/sahat/hackathon-starter)
 - [express-es6-rest-api](https://github.com/developit/express-es6-rest-api)
 
@@ -42,6 +44,7 @@ Express
 ## 常见问题
 
 ### 重定向
+
 - [express-urlrewrite](https://github.com/kapouer/express-urlrewrite)
 - [In App redirect in expressjs using middleware](https://stackoverflow.com/questions/19079497/in-app-redirect-in-expressjs-using-middleware)
 
