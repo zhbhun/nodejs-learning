@@ -1,3 +1,5 @@
+# NPM
+
 - [npm 模块管理器](http://javascript.ruanyifeng.com/nodejs/npm.html)
 - [npm 中文文档](https://www.gitbook.com/book/chenyiqiao/documentation_for_npm/details)
 - [npm 模块安装机制简介](http://www.ruanyifeng.com/blog/2016/01/npm-install.html)
@@ -6,14 +8,48 @@
 - [如何知道 npm 模块的资源消耗？](http://cost-of-modules.herokuapp.com/)
 - [通过 .npmrc 打磨你的 Node.js 开发环境](https://nodesource.com/blog/configuring-your-npmrc-for-an-optimal-node-js-environment)
 
-# 用法
-## 调试
+## 用法
+
+### 调试
+
 - `link`
 
-## 发布
+### 发布
+
 - [如何发布 Node 模块到 NPM 社区](http://weizhifeng.net/how-to-publish-a-node-module.html)
 
-# 问题
+## 配置
+
+### 代理服务器
+
+- [为npm设置代理](http://www.cnblogs.com/walkerwang/p/3624909.html)
+- [npm 淘宝镜像配置](https://gist.github.com/52cik/c1de8926e20971f415dd)
+
+### 切换服务
+
+- https://github.com/Pana/nrm
+- [Easy Switching Between Public and Private npm Registries](https://strongloop.com/strongblog/switch-between-configure-public-and-private-npm-registry/)
+
+### 配置多服务
+
+- https://github.com/npm/npm/issues/100
+- [Associating a scope with a registry](https://docs.npmjs.com/misc/scope#associating-a-scope-with-a-registry)
+- [Is there any way to configure multiple registries in a single npmrc file](https://stackoverflow.com/questions/32633678/is-there-any-way-to-configure-multiple-registries-in-a-single-npmrc-file)
+- [Installing private npm modules](Installing private npm modules)
+
+### 依赖
+
+- http://semver.org/
+- https://docs.npmjs.com/misc/semver
+- https://docs.npmjs.com/files/package.json#dependencies
+- https://docs.npmjs.com/files/package.json#devdependencies
+- [npm 安装git项目的几种方式](http://blog.csdn.net/yiifaa/article/details/53784427)
+- [你需要知道的几类npm依赖包管理](https://segmentfault.com/a/1190000011442391)
+- https://docs.npmjs.com/files/package.json#dependencies
+
+
+## 问题
+
 - [Installing a local module using npm?](http://stackoverflow.com/questions/8088795/installing-a-local-module-using-npm)
 - [how to specify local modules as npm package dependencies](http://stackoverflow.com/questions/15806241/how-to-specify-local-modules-as-npm-package-dependencies)
 - [Local dependency in package.json](http://stackoverflow.com/questions/14381898/local-dependency-in-package-json)
@@ -27,50 +63,30 @@
 
 - [What's the difference between dependencies, devDependencies and peerDependencies in npm package.json file?](https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies)
 
----
+## 如何并发执行脚本
 
 - [better-npm-run](https://github.com/benoror/better-npm-run)
 - [npm-run-all](https://github.com/mysticatea/npm-run-all)
 
----
-
-# 配置
-## 代理服务器
-- [为npm设置代理](http://www.cnblogs.com/walkerwang/p/3624909.html)
-- [npm 淘宝镜像配置](https://gist.github.com/52cik/c1de8926e20971f415dd)
-
-## 切换服务
-- https://github.com/Pana/nrm
-- [Easy Switching Between Public and Private npm Registries](https://strongloop.com/strongblog/switch-between-configure-public-and-private-npm-registry/)
-
-## 配置多服务
-- https://github.com/npm/npm/issues/100
-- [Associating a scope with a registry](https://docs.npmjs.com/misc/scope#associating-a-scope-with-a-registry)
-- [Is there any way to configure multiple registries in a single npmrc file](https://stackoverflow.com/questions/32633678/is-there-any-way-to-configure-multiple-registries-in-a-single-npmrc-file)
-- [Installing private npm modules](Installing private npm modules)
-
-# 依赖
-- http://semver.org/
-- https://docs.npmjs.com/misc/semver
-- https://docs.npmjs.com/files/package.json#dependencies
-- https://docs.npmjs.com/files/package.json#devdependencies
-- [npm 安装git项目的几种方式](http://blog.csdn.net/yiifaa/article/details/53784427)
-- [你需要知道的几类npm依赖包管理](https://segmentfault.com/a/1190000011442391)
-- https://docs.npmjs.com/files/package.json#dependencies
-
-# 问题
-## 区分 `~` 和 `^`
+### 区分 `~` 和 `^`
 - What's the difference between tilde(~) and caret(^) in package.json?
 
-## 并发执行脚本
+### 并发执行脚本
 - [concurrently](https://github.com/kimmobrunfeldt/concurrently)
 - [npm-run-all](https://github.com/mysticatea/npm-run-all)
 - [better-npm-run](https://github.com/benoror/better-npm-run)
 
----
-
-## 版本锁
+### 版本锁
 
 - [package-lock.json 需要写进 .gitignore 吗？](https://www.zhihu.com/question/264560841)
 - [透过 js-beautify@1.7.0 的 Bug 来看，npm 默认的 lock 机制是否重要？](https://www.zhihu.com/question/65536076)
 - [为什么我不使用 shrinkwrap（lock）](https://zhuanlan.zhihu.com/p/22934066)
+
+### npm link 导致 peerDependency 的模块找不到
+
+- [`npm install` after `npm link` will "steal" dependencies from linked packages](https://github.com/npm/npm/issues/10343)
+- [rfc: new npm link command](https://github.com/npm/rfcs/pull/3)
+- [Testing npm packages before publishing](https://medium.com/m/signin)
+- [You can finally "npm link" packages that contain peer dependencies!](http://www.codetunnel.io/you-can-finally-npm-link-packages-that-contain-peer-dependencies/)
+- [NPM: After “npm link” module is not found](https://stackoverflow.com/questions/24550515/npm-after-npm-link-module-is-not-found)
+- [你所不知道的模块调试技巧 - npm link](https://github.com/atian25/blog/issues/17)
