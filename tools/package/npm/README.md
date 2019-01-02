@@ -90,3 +90,7 @@
 - [You can finally "npm link" packages that contain peer dependencies!](http://www.codetunnel.io/you-can-finally-npm-link-packages-that-contain-peer-dependencies/)
 - [NPM: After “npm link” module is not found](https://stackoverflow.com/questions/24550515/npm-after-npm-link-module-is-not-found)
 - [你所不知道的模块调试技巧 - npm link](https://github.com/atian25/blog/issues/17)
+
+### `nodejs “npm ERR! code SELF_SIGNED_CERT_IN_CHAIN”`
+
+- [nodejs “npm ERR! code SELF_SIGNED_CERT_IN_CHAIN”](https://stackoverflow.com/questions/29141153/nodejs-npm-err-code-self-signed-cert-in-chain)
