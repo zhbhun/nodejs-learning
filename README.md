@@ -1,7 +1,12 @@
 Node.js
 ========
 
+## 教程
+
+- [nodebestpractices](https://github.com/i0natan/nodebestpractices)
+- [N-blog](https://github.com/nswbmw/N-blog)
+
 # TODO
 
 - [Node 在有赞的实践](https://juejin.im/post/5b0388006fb9a07aa213ae16)
-- [nodebestpractices](https://github.com/i0natan/nodebestpractices)
+- [How-to-learn-node-correctly](https://github.com/i5ting/How-to-learn-node-correctly)

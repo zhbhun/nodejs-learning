@@ -1,6 +1,6 @@
 # 源管理工具
-- [nrm](https://github.com/Pana/nrmw)
 
+- [nrm](https://github.com/Pana/nrmw)
 
 # 参考文献
 
