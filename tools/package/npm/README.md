@@ -59,6 +59,12 @@
 - [npm login 输入正确的用户名和密码时仍出现 Incorrect username or password](https://segmentfault.com/q/1010000003876273)
 - [使用淘宝 NodeJS 镜像加速 Electron Node-Sass 的安装速度](http://zqlu.github.io/2016/05/10/taobao-nodejs-mirror/)
 
+### shrinkwrap 提示 `extraneous` 错误
+
+- [npm shrinkwrap complaints about extraneous and missing packages](https://github.com/JamieMason/shrinkpack/issues/14)
+- [Why does npm-shrinkwrap.json change when running npm install](https://stackoverflow.com/questions/48895076/why-does-npm-shrinkwrap-json-change-when-running-npm-install)
+- [Updating a package when you’re using NPM Shrinkwrap](https://gist.github.com/alanhogan/a32889830384f4e190fa)
+
 ### 区分不同的依赖类型
 
 - [What's the difference between dependencies, devDependencies and peerDependencies in npm package.json file?](https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies)
