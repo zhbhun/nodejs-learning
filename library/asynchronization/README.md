@@ -6,3 +6,7 @@
 
 - [官网](https://github.com/caolan/async)
 - [API](http://caolan.github.io/async/)
+
+### [promisify-node](https://github.com/nodegit/promisify-node)
+
+...
