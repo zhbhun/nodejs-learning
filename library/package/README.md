@@ -1,6 +1,7 @@
 # 源管理工具
 
 - [nrm](https://github.com/Pana/nrmw)
+- [patch-package](https://github.com/ds300/patch-package)
 
 # 参考文献
 
