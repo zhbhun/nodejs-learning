@@ -100,3 +100,7 @@
 ### `nodejs “npm ERR! code SELF_SIGNED_CERT_IN_CHAIN”`
 
 - [nodejs “npm ERR! code SELF_SIGNED_CERT_IN_CHAIN”](https://stackoverflow.com/questions/29141153/nodejs-npm-err-code-self-signed-cert-in-chain)
+
+---
+
+- [【原】npm 常用命令详解](https://www.cnblogs.com/PeunZhang/p/5553574.html#npm-update)
