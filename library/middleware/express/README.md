@@ -80,6 +80,8 @@ Express
 
 ## 常见问题
 
+- [Removing all headers from express.js](https://stackoverflow.com/questions/18740504/removing-all-headers-from-express-js)
+
 ### 重定向
 
 - [express-urlrewrite](https://github.com/kapouer/express-urlrewrite)
