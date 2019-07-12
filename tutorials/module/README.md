@@ -1,1 +1,2 @@
 - [node-resolve](https://github.com/substack/node-resolve) - Implements the node.js require.resolve() algorithm.
+- [node-require-directory](https://github.com/troygoode/node-require-directory)
