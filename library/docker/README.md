@@ -1,0 +1,3 @@
+- [dockerode](https://github.com/apocas/dockerode)
+- [node-docker-machine](https://github.com/vweevers/node-docker-machine)
+- [docker-api](https://github.com/AgustinCB/docker-api)
