@@ -1,9 +1,0 @@
-{
-  "private": true,
-  "scripts": {
-    "start": "node --inspect index.js"
-  },
-  "dependencies": {
-    "express": "^4.16.4"
-  }
-}
