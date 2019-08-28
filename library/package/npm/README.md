@@ -104,3 +104,4 @@
 ---
 
 - [【原】npm 常用命令详解](https://www.cnblogs.com/PeunZhang/p/5553574.html#npm-update)
+- [Install npm packages globally without sudo on macOS and Linux](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md)
