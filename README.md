@@ -5,6 +5,8 @@ Node.js
 
 - [nodebestpractices](https://github.com/i0natan/nodebestpractices)
 - [N-blog](https://github.com/nswbmw/N-blog)
+- [the-node-way](https://github.com/FredKSchott/the-node-way)
+- [Node.js Production Practices](https://www.joyent.com/node-js/production)
 
 # TODO
 
