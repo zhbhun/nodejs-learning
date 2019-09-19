@@ -30,3 +30,7 @@
 - 综合
 
     - [signale](https://github.com/klaussinani/signale) - Highly configurable logging utility
+
+## 其他
+
+- [terminalizer](https://github.com/faressoft/terminalizer)
