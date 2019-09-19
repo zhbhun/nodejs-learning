@@ -26,3 +26,7 @@
 - 日志
 
     - [envinfo](https://github.com/tabrindle/envinfo)
+
+- 综合
+
+    - [signale](https://github.com/klaussinani/signale) - Highly configurable logging utility
