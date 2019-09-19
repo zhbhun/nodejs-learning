@@ -3,3 +3,4 @@
 - https://rollupjs.org/guide/en
 - https://parceljs.org/
 - https://github.com/lukeed/pwa
+- [packer-cli](https://github.com/yohangz/packer-cli) - Full-fledged CLI tool to generate and package node modules compliant with Browser and NodeJS. Packer CLI support all modern style, unit test and script transpiler tools.
