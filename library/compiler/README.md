@@ -2,3 +2,7 @@
 
 - [Bublé](https://github.com/bublejs/buble)
 - https://prepack.io/
+
+---
+
+- [Compiler Optimizations](http://compileroptimizations.com/index.html) - A collection of compiler optimizations with brief descriptions and examples of code transformations.
