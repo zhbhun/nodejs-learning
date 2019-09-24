@@ -3,17 +3,41 @@
 - [官方网站](https://nestjs.com)
 - [官方文档](https://docs.nestjs.com)
 
-## 对比
+## 介绍
+
+### 对比
 
 - [如何评价nest.js？](https://www.zhihu.com/question/265622067)
 - [nest.js和阿里的midway将来谁会更胜一筹呢？](https://www.zhihu.com/question/329910651/answer/719217826)
 - [Nest.js和koa.js有什么不一样？](https://www.zhihu.com/question/323525252/answer/742482387)
 
-## 教程
+## 安装
+
+1. `npm i -g @nestjs/cli`
+2. `nest new project-name`
+3. `cd project-name`
+4. `npm run start:dev`
+5. `npm run build`
+6. `npm run start:prod`
+
+- [First steps of Nest](https://docs.nestjs.com/first-steps)
+
+## 入门
 
 ### Middleware
 
 - [nest-middlewares](https://github.com/wbhob/nest-middlewares)
+
+## 进阶
+
+### 数据库
+
+- [Database of Nest](https://docs.nestjs.com/techniques/database)
+- [Mongo of Nest](https://docs.nestjs.com/techniques/mongodb)
+
+测试示例：
+
+- [sql-typeorm](./examples/sql-typeorm)
 
 #### 静态文件
 
