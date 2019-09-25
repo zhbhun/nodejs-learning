@@ -93,6 +93,12 @@ ps：`typeorm init --help` 查看脚手架初始化项目的更多用法。
 
 ### [事务](https://typeorm.io/#/transactions)
 
+- [Transactions across tables](https://github.com/typeorm/typeorm/issues/185)
+- [Support transaction per request with TypeORM](https://github.com/nestjs/nest/issues/560)
+- [typeorm-transactional-cls-hooked](https://github.com/odavid/typeorm-transactional-cls-hooked)
+- [nestjs / TypeOrm database transaction](https://stackoverflow.com/questions/53680665/nestjs-typeorm-database-transaction)
+- [Transactions and Concurrency](https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/transactions-and-concurrency.html#transactions-and-concurrency)
+
 ### [索引](https://typeorm.io/#/indices)
 
 ### [订阅](https://typeorm.io/#/listeners-and-subscribers)
