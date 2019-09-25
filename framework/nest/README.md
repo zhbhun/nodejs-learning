@@ -34,6 +34,9 @@
 
 - [Database of Nest](https://docs.nestjs.com/techniques/database)
 - [Mongo of Nest](https://docs.nestjs.com/techniques/mongodb)
+- [Support transaction per request with TypeORM](https://github.com/nestjs/nest/issues/560)
+- [typeorm-transactional-cls-hooked](https://github.com/odavid/typeorm-transactional-cls-hooked)
+- [nestjs / TypeOrm database transaction](https://stackoverflow.com/questions/53680665/nestjs-typeorm-database-transaction)
 
 测试示例：
 
