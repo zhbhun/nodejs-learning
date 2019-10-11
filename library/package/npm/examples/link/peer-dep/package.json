@@ -1,0 +1,14 @@
+{
+  "name": "peer-dep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "lodash": "^4.17.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
