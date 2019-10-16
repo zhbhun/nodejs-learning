@@ -1,0 +1,17 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:serve": "serve -p 3000 public",
+    "start:watch": "browser-sync start --proxy 'localhost:3000' --files public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "serve": "^11.2.0"
+  }
+}
