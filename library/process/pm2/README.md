@@ -1,5 +1,8 @@
-PM2
-========
+# [PM2](https://pm2.keymetrics.io)
+
+> https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/
+
+功能特性：
 
 - 集群模式
 - 负载均衡
@@ -12,6 +15,25 @@ PM2
 - 编程 API
 - source map
 - 开发调试模式
+
+- [源代码](https://github.com/Unitech/pm2)
+- [文档](https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/)
+
+## 安装
+
+全局安装：
+
+```bash
+$ npm install pm2 -g
+```
+
+## 用法
+
+下面这行命令以最简单的方式启动了一个守护进程应用：
+
+```bash
+$ pm2 start app.js
+```
 
 ## 参考文献
 
