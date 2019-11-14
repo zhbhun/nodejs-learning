@@ -68,6 +68,10 @@
 
 - [What's the difference between dependencies, devDependencies and peerDependencies in npm package.json file?](https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies)
 
+### `gyp ERR! stack Error: `make` failed with exit code: 2`
+
+- [gyp ERR! stack Error: `make` failed with exit code: 2](https://github.com/nodejs/node-gyp/issues/1694#issuecomment-503067241)
+
 ## 如何并发执行脚本
 
 - [better-npm-run](https://github.com/benoror/better-npm-run)
