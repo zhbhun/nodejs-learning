@@ -30,6 +30,16 @@
 - [debugger: bind to random port with --debug-port=0](https://github.com/nodejs/node/pull/5025)
 - [Bind an available port for debugging if the specified debug port is already bound](https://github.com/nodejs/node/issues/4419)
 
+### 如何调试第三方包提供的脚本
+
+```shell
+node --insepect ./node_modules/xxx/bin/xxx.js
+```
+
+### 如何开启远程调试
+
+- [Can't --inspect into a remote node container](https://github.com/Microsoft/vscode/issues/23257)
+
 ## TODO
 
 - [node-inspector](https://github.com/node-inspector/node-inspector)
