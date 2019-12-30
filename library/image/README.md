@@ -1,5 +1,6 @@
 - https://github.com/yahoo/blink-diff
 - https://github.com/uber-archive/image-diff
+- https://github.com/lovell/sharp
 
 ## 压缩
 
