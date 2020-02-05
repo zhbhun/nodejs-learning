@@ -49,7 +49,7 @@ const server = app.listen(3001, function() {
 });
 
 function log(message) {
-  var filePath = path.resolve(__dirname, "log.txt");
+  var filePath = path.resolve(__dirname, "test.txt");
   var current = fs.readFileSync(filePath, "utf8");
   fs.writeFileSync(filePath, current + "\n" + (new Date().toISOString()) + ' - ' + message);
 }
