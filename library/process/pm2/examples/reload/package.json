@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "pm2 start server.js -n test -i 2 -k 8000 -l log.txt --time --log-date-format 'YYYY-MM-DD HH:mm:ss Z'",
+    "reload": "pm2 reload test",
+    "stop": "pm2 stop test",
+    "delete": "pm2 delete test"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
