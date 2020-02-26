@@ -31,6 +31,14 @@
 
     - [signale](https://github.com/klaussinani/signale) - Highly configurable logging utility
 
+- 进度
+
+    - [ora](https://github.com/sindresorhus/ora)
+    - [cli-spinners](https://github.com/sindresorhus/cli-spinners)
+    - [listr](https://github.com/SamVerschueren/listr)
+    - [spinnies](https://github.com/jcarpanelli/spinnies)
+    - [Node.CLI-Progress](https://github.com/AndiDittrich/Node.CLI-Progress)
+
 ## 其他
 
 - [terminalizer](https://github.com/faressoft/terminalizer)
