@@ -39,6 +39,10 @@
     - [spinnies](https://github.com/jcarpanelli/spinnies)
     - [Node.CLI-Progress](https://github.com/AndiDittrich/Node.CLI-Progress)
 
+## 交互
+
+- [enquirer](https://github.com/enquirer/enquirer) - Stylish, intuitive and user-friendly prompts.
+
 ## 其他
 
 - [terminalizer](https://github.com/faressoft/terminalizer)
