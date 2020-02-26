@@ -110,3 +110,7 @@ ps：`typeorm init --help` 查看脚手架初始化项目的更多用法。
 ## 问题
 
 - [FAQ](https://typeorm.io/#/faq)
+
+### 暂时不支持 `AND` 语法
+
+- [[Find options] MySQL "where and" on same column](https://github.com/typeorm/typeorm/issues/3113)
