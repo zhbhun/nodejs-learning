@@ -47,6 +47,11 @@
 - [你需要知道的几类npm依赖包管理](https://segmentfault.com/a/1190000011442391)
 - https://docs.npmjs.com/files/package.json#dependencies
 
+### 限定版本
+
+- [How to Lock down Your Project’s Node Version Using .Nvmrc Or engines.](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
+- [How can I specify the required Node.js version in package.json?](https://stackoverflow.com/questions/29349684/how-can-i-specify-the-required-node-js-version-in-package-json)
+
 ## 问题
 
 - [Installing a local module using npm?](http://stackoverflow.com/questions/8088795/installing-a-local-module-using-npm)
