@@ -1,20 +1,44 @@
 # 代理
 
-- [TooTallNate/proxy](https://github.com/TooTallNate/proxy) - An HTTP proxy written with Node.js (think Squid)
+## Proxy Agent
+
+所有的网络请求都通过指定代理的 Agent 发送
+
 - [TooTallNate/node-proxy-agent](https://github.com/TooTallNate/node-proxy-agent) - Maps proxy protocols to `http.Agent` implementations.
+- [TooTallNate/node-https-proxy-agent](https://github.com/TooTallNate/node-https-proxy-agent) - An HTTP(s) proxy `http.Agent` implementation for HTTPS endpoints.
+- [TooTallNate/node-http-proxy-agent](https://github.com/TooTallNate/node-http-proxy-agent) - An HTTP(s) proxy `http.Agent` implementation for HTTP endpoints.
+- [TooTallNate/socks-proxy-agent](https://github.com/TooTallNate/node-socks-proxy-agent)- A SOCKS (v4/v5) proxy `http.Agent` implementation for HTTP and HTTPS
+- [TooTallNate/node-pac-proxy-agent](https://github.com/TooTallNate/node-pac-proxy-agent) - A PAC file proxy `http.Agent` implementation for HTTP and HTTPS
 
-    所有的网络请求都通过指定代理的 Agent 发送
+## Reverse Proxy
 
-    - [TooTallNate/node-https-proxy-agent](https://github.com/TooTallNate/node-https-proxy-agent) - An HTTP(s) proxy `http.Agent` implementation for HTTPS endpoints.
-    - [TooTallNate/node-http-proxy-agent](https://github.com/TooTallNate/node-http-proxy-agent) - An HTTP(s) proxy `http.Agent` implementation for HTTP endpoints.
-    - [TooTallNate/socks-proxy-agent](https://github.com/TooTallNate/node-socks-proxy-agent)- A SOCKS (v4/v5) proxy `http.Agent` implementation for HTTP and HTTPS
-    - [node-pac-proxy-agent](https://github.com/TooTallNate/node-pac-proxy-agent) - A PAC file proxy `http.Agent` implementation for HTTP and HTTPS
+反向代理中间件，将发送给指定路径的请求反向代理给目标服务器。
 
+- [node-http-proxy](https://github.com/http-party/node-http-proxy) - node-http-proxy is an HTTP programmable proxying library that supports websockets. It is suitable for implementing components such as reverse proxies and load balancers.
 - [chimurai/http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - The one-liner node.js http-proxy middleware for connect, express and browser-sync
+- [express-http-proxy](https://github.com/villadora/express-http-proxy) - Proxy middleware for express/connect
+- [fastify-http-proxy](https://github.com/fastify/fastify-http-proxy) - Proxy your http requests to another server, with hooks.
 
-    反向代理中间件，将发送给指定路径的请求反向代理给目标服务器。
+## 客户端代理
 
-- HTTP 代理客户端
+客户端支持设置代理服务器
 
-    - [needle](https://github.com/tomas/needle#more-advanced-proxy-support) - 
-    - [TooTallNate/superagent-proxy](https://github.com/TooTallNate/superagent-proxy) - `Request#proxy(uri)` superagent extension.
+HTTP
+
+- [proxy-from-env](https://github.com/Rob--W/proxy-from-env#readme) - A Node.js library to get the proxy URL for a given URL based on standard environment variables (http_proxy, no_proxy, ...).
+- [needle](https://github.com/tomas/needle#more-advanced-proxy-support) - 
+- [TooTallNate/superagent-proxy](https://github.com/TooTallNate/superagent-proxy) - `Request#proxy(uri)` superagent extension.
+
+Socks
+
+- [JoshGlazebrook/socks](https://github.com/JoshGlazebrook/socks/) - Fully featured SOCKS proxy client supporting SOCKSv4, SOCKSv4a, and SOCKSv5. Includes Bind and Associate functionality.
+
+## 代理服务器
+
+- [TooTallNate/proxy](https://github.com/TooTallNate/proxy) - An HTTP proxy written with Node.js (think Squid)
+- [anyproxy](https://github.com/alibaba/anyproxy/blob/master/docs/cn/src_doc.md) - AnyProxy是一个开放式的HTTP代理服务器。
+- [avwo/whistle](https://github.com/avwo/whistle) - HTTP, HTTP2, HTTPS, Websocket debugging proxy.
+
+---
+
+- [http-proxy-to-socks](https://github.com/oyyd/http-proxy-to-socks) - hpts(http-proxy-to-socks) is a nodejs client to convert socks proxy into http proxy.
