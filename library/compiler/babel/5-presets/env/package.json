@@ -4,7 +4,9 @@
     "build:targets": "babel ./targets/src -d ./targets/build",
     "build:loose": "babel ./loose/src -d ./loose/build",
     "build:useBuiltIns": "babel ./useBuiltIns/src -d ./useBuiltIns/build",
-    "build:modules": "babel ./modules/src -d ./modules/build"
+    "build:modules": "babel ./modules/src -d ./modules/build",
+    "build:corejs": "babel ./corejs/src -d ./corejs/build",
+    "build:proposals": "babel ./proposals/src -d ./proposals/build"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
