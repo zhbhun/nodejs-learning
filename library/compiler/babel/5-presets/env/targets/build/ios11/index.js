@@ -1,3 +1,3 @@
 "use strict";
 
-const template = `${'Hello'} ${'World!'}`;
+const template = 'Hello'.concat(" ", 'World!');
