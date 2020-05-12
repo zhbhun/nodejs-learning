@@ -8,6 +8,7 @@
     "build:enable": "cross-env NODE_ENV=enable babel ./src -d ./enable",
     "build:corejs": "cross-env NODE_ENV=corejs babel ./src -d ./corejs",
     "build:helpers-disable": "cross-env NODE_ENV=helpers-disable babel ./src -d ./helpers-disable",
+    "build:regenerator-enable": "cross-env NODE_ENV=regenerator-enable babel ./src -d ./regenerator-enable",
     "build:regenerator-disable": "cross-env NODE_ENV=regenerator-disable babel ./src -d ./regenerator-disable",
     "build:useESModules": "cross-env NODE_ENV=useESModules babel ./src -d ./useESModules",
     "build": "npm run build:disable && npm run build:enable && npm run build:corejs && npm run build:helpers-disable && npm run build:regenerator-disable && npm run build:useESModules"
