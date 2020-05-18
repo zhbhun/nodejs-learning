@@ -38,6 +38,10 @@ Socks
 - [TooTallNate/proxy](https://github.com/TooTallNate/proxy) - An HTTP proxy written with Node.js (think Squid)
 - [anyproxy](https://github.com/alibaba/anyproxy/blob/master/docs/cn/src_doc.md) - AnyProxy是一个开放式的HTTP代理服务器。
 - [avwo/whistle](https://github.com/avwo/whistle) - HTTP, HTTP2, HTTPS, Websocket debugging proxy.
+- [用 Node.JS 搭转发代理服务器 (Forward Proxy Server)](https://www.starlite.me/zh-Hans/Network/%E7%94%A8-Node-JS-%E6%90%AD%E8%BD%AC%E5%8F%91%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8-Forward-Proxy-Server/)
+- [（原创）Node.JS实战17：开发一个正向代理服务器](https://zhuanlan.zhihu.com/p/97291270)
+
+
 
 ---
 
