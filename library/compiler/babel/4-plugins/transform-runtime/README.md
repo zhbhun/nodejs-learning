@@ -1,7 +1,4 @@
-transform-runtime
-========
-
-
+# transform-runtime
 
 ## 配置
 
@@ -24,6 +21,14 @@ transform-runtime
     为 true 时，使用 @babel/runtime/helpers/esm 下的 ES 模块化的工具函数，否则使用 commonjs 模块化的工具函数。
 
 ## 常见问题
+
+- @babel/plugin-transform-runtime 编译代码打包后体积更多
+
+    - [@babel/plugin-transform-runtime bring unnecessary polyfill with corejs configuration. ](https://github.com/babel/babel/issues/11539)
+    - [Using @babel/runtime-corejs2 and @babel/runtime-corejs3 leads to larger bundle sizes](https://github.com/babel/babel/issues/9853#issuecomment-619587386)
+
+
+其他
 
 - [Plugin transform-runtime with webpack doesn't work properly](https://github.com/babel/babel-loader/issues/231)
 - https://github.com/webpack/webpack/issues/4039 | https://github.com/webpack/webpack/issues/4039#issuecomment-274094298
