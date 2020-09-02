@@ -61,6 +61,7 @@
 
 参考文献
 
+- https://github.com/npm/npx#readme
 - [npx 使用教程](https://www.ruanyifeng.com/blog/2019/02/npx.html)
 - [Introducing npx: an npm package runner](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b)
 - [Speed Up Your npm Workflow With npx](https://alligator.io/workflow/npx/)
