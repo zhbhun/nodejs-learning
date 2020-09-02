@@ -52,6 +52,19 @@
 - [How to Lock down Your Project’s Node Version Using .Nvmrc Or engines.](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245)
 - [How can I specify the required Node.js version in package.json?](https://stackoverflow.com/questions/29349684/how-can-i-specify-the-required-node-js-version-in-package-json)
 
+## NPX
+
+1. 调用项目安装的模块
+2. 避免全局安装模块
+3. 使用不同版本的 node
+4. 执行 GitHub 源码
+
+参考文献
+
+- [npx 使用教程](https://www.ruanyifeng.com/blog/2019/02/npx.html)
+- [Introducing npx: an npm package runner](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b)
+- [Speed Up Your npm Workflow With npx](https://alligator.io/workflow/npx/)
+
 ## 问题
 
 - [Installing a local module using npm?](http://stackoverflow.com/questions/8088795/installing-a-local-module-using-npm)
