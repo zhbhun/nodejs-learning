@@ -1,0 +1,11 @@
+{
+  "name": "diff2",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo diff2 build",
+    "clean": "echo diff2 clean"
+  },
+  "dependencies": {
+    "react": "^17.x"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "depend1",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo depent1 build",
+    "clean": "echo depend1 cleas"
+  },
+  "dependencies": {
+    "depend2": "^1.0.0"
+  }
+}

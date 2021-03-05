@@ -1,0 +1,11 @@
+{
+  "name": "same1",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo same1 build",
+    "clean": "echo same1 clean"
+  },
+  "dependencies": {
+    "cross-env": "^5.0.5"
+  }
+}
