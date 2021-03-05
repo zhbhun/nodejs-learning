@@ -27,6 +27,17 @@
 
     ps：如果遇到两个 package 的公同依赖版本冲突问题，优先在根目录安装低版本（？）的第三方依赖，版本高的在 package 目录下安装。
 
+    总结：公共依赖、相互依赖、冲突依赖。
+
+- 运行脚本：
+
+    - 运行所有 package 的脚本：`yarn workspaces run xxx`
+    - 运行某个 package 的脚本：`yarn workspace xxx run yyy`
+
+    ps：workspaces 表示在所有 pacakge 下执行某个 yarn 命令，workspace 制定某个 pakcage 执行某个 yarn 命令
+
+应用场景
+
 - 清理环境：yarn workspaces run clean
 
     ps：执行所有 package 的 clean 操作
@@ -41,7 +52,9 @@
 - 项目测试：同上
 - 版本升级与发布：规范提交（ Conventional commit）=》条件校验（是否存在未提交代码、是否在主分支）=》升级版本（规范提交记录 + 版本语义化规则）=》变更日志=》Git Tag=》Git Push=》NPM Publish
 
-    ps：yarn 不支持自动化的版本升级命令。
+    ps：yarn 不支持自动化的版本升级命令，需要借助 lerna 实现
+
+总结：yarn 对比 lerna 只提供了多 package 的依赖管理和脚本运行，在一些特定领域还是需要借助 lerna 去完成，例如：项目构建和版本升级等。
 
 参考文献
 
