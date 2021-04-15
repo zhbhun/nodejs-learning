@@ -67,6 +67,17 @@
 - [【译】配置 Monorepo 的几种工具 lerna、npm、yarn 及其性能对比](https://zhuanlan.zhihu.com/p/350317373)
 - [工程化:基于yarn和lerna的workspace工作流](https://blog.staleclosure.com/monorepo-yarn-workspace/)
 
+## 问题
+
+### 安装了重复依赖的问题
+
+- 问题描述：在升级项目某个第三方模块的版本时，如果另外一个第三方模块也依赖该模块，这时候可能会出现该第三方模块安装多个版本的现象（即使这些版本是相互兼容的）
+- 问题原因：yang v1 的 bug，参考 [Yarn upgrade creates duplicate dependency resolution](https://github.com/yarnpkg/yarn/issues/3967)
+- 解决方案
+
+    1. 手动删除 yarn.lock 里相关模块的版本锁，然后重新安装依赖
+    2. 等待 yarn v2 发布
+
 ## 配置
 
 ### 缓存设置
