@@ -1,3 +1,5 @@
+# Prettier
+
 * [官网](https://prettier.io/)
 * [仓库](https://github.com/prettier/prettier)
 * [文档](https://prettier.io/docs/en/)
@@ -31,7 +33,12 @@
 * [Your last ESLint config](https://medium.com/@netczuk/your-last-eslint-config-9e35bace2f99)
 * [A Prettier JavaScript Formatter](https://jlongster.com/A-Prettier-Formatter)
 
-# 问题
-## 错误的删除括号
+## 问题
+
+### 错误的删除括号
 - https://github.com/prettier/prettier/issues/729
 - https://github.com/prettier/prettier/issues/187
+
+## 参考
+
+- [理解 Prettier 并用它统一你的代码风格](https://www.meteorlxy.cn/posts/2019/08/05/understand-and-use-prettier.html)
