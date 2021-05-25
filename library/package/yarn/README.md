@@ -2,6 +2,14 @@
 
 - [yarn config](https://yarnpkg.com/en/docs/cli/config/)
 
+## 变更
+
+yarn2
+
+- [Yarn 2 使用体验](https://ocavue.com/yarn-2-first-impression-zh/)
+- [Yarn 2 的安装与使用](https://liuwenzhuang.github.io/2020/08/07/Yarn2-install-and-usage.html)
+- [初识 yarn2](https://segmentfault.com/a/1190000023215360)
+
 ## 用法
 
 ### [Workspace(工作区间)](https://classic.yarnpkg.com/en/docs/workspaces/)
