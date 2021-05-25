@@ -9,3 +9,7 @@
 ## 分析工具
 
 - [Bundlephobia]( https://bundlephobia.com/ ) -  Bundlephobia helps you find the performance impact of adding a npm package to your front-end bundle. 
+
+## 参考文献
+
+- [精读《新一代前端构建工具对比》](https://segmentfault.com/a/1190000040010523?_ea=131700627)
