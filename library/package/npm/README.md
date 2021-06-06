@@ -56,6 +56,11 @@
 - [Speed Up Your npm Workflow With npx](https://alligator.io/workflow/npx/)
 - [前端利器之 npx 使用纪要](https://www.jeffjade.com/2019/12/11/160-how-to-use-npm-npx-tutorial/)
 
+### 版本语义化
+
+- [npm semver calculator](https://semver.npmjs.com/)
+- [About semantic versioning](https://docs.npmjs.com/about-semantic-versioning)
+
 ## 配置
 
 ### 代理服务器
