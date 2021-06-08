@@ -109,6 +109,9 @@ Changelog
 
 实现原理：关闭了所有与 prettier 存在冲突或者不需要的 ESLint 规则。
 
+#### [eslint-config-standard](https://github.com/standard/eslint-config-standard)
+
+...
 
 #### @vue/eslint-config-prettier
 
