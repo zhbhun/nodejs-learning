@@ -44,7 +44,7 @@ yarn2
 
     ps：workspaces 表示在所有 pacakge 下执行某个 yarn 命令，workspace 制定某个 pakcage 执行某个 yarn 命令
 
-应用场景
+用法
 
 - 清理环境：yarn workspaces run clean
 
@@ -64,8 +64,15 @@ yarn2
 
 总结：yarn 对比 lerna 只提供了多 package 的依赖管理和脚本运行，在一些特定领域还是需要借助 lerna 去完成，例如：项目构建和版本升级等。
 
+问题
+
+- nohoist
+
+    - [nohoist in Workspaces](https://classic.yarnpkg.com/blog/2018/02/15/nohoist/)
+
 参考文献
 
+- [Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
 - [基于lerna和yarn workspace的monorepo工作流](https://zhuanlan.zhihu.com/p/71385053)
 
     [hardfist/monorepo-starter](https://github.com/hardfist/monorepo-starter)
