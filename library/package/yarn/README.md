@@ -75,6 +75,12 @@ yarn2
 - [【译】配置 Monorepo 的几种工具 lerna、npm、yarn 及其性能对比](https://zhuanlan.zhihu.com/p/350317373)
 - [工程化:基于yarn和lerna的workspace工作流](https://blog.staleclosure.com/monorepo-yarn-workspace/)
 
+### pnp
+
+- [Plug'n'Play](https://yarnpkg.com/features/pnp)
+- [Yarn 的 Plug'n'Play 特性](https://loveky.github.io/2019/02/11/yarn-pnp/)
+- [Yarn Plug'n'Play可否助你脱离node_modules苦海?](https://juejin.cn/post/6844903814038831118)
+
 ## 问题
 
 ### 安装了重复依赖的问题
