@@ -165,6 +165,11 @@ npm ci --cache .npm --prefer-offline
 
 - [gyp ERR! stack Error: `make` failed with exit code: 2](https://github.com/nodejs/node-gyp/issues/1694#issuecomment-503067241)
 
+### 修改第三方依赖包
+
+- https://github.com/ds300/patch-package
+- [使用“黑魔法”优雅的修改第三方依赖包](https://fe.zhuanzhuan.com/detail/616013d2abc425a40c9197af)
+
 ## 如何并发执行脚本
 
 - [better-npm-run](https://github.com/benoror/better-npm-run)
