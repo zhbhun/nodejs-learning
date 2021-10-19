@@ -10,6 +10,11 @@
 
 ## 用法
 
+### create / init
+
+- [你不知道的 npm init](https://zhuanlan.zhihu.com/p/45151808)
+- [npm create 命令](https://juejin.cn/post/6844903909958352909)
+
 ### link
 
 - [npm link](http://javascript.ruanyifeng.com/nodejs/npm.html#toc18)
