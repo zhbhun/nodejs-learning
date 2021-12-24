@@ -73,6 +73,8 @@
 - [为npm设置代理](http://www.cnblogs.com/walkerwang/p/3624909.html)
 - [npm 淘宝镜像配置](https://gist.github.com/52cik/c1de8926e20971f415dd)
 
+ps：如果遇到淘宝镜像不同步的问题，可以访问 https://npmmirror.com/，找到对应的包进行手动同步。
+
 ### 切换服务
 
 - https://github.com/Pana/nrm
