@@ -141,11 +141,19 @@ npm 遵循[版本语义化规范](https://semver.org/lang/zh-CN/)，`npm install
 - 开启版本所功能，在业务项目中需要提交版本锁文件（package-lock.json）
 - 持续集成环境使用 `npm ci` 按照依赖
 
-## 缓存应用
+### 缓存应用
 
 ```bash
 npm ci --cache .npm --prefer-offline
 ```
+
+## 实践
+
+### 检查更新依赖
+
+- [pkg-updater](https://github.com/KohPoll/pkg-updater) - A simple updater which use in your cli tool.
+
+    [Introducing Package Updater](https://medium.com/@PackageUpdater/introducing-package-updater-d334f2415bd)
 
 ## 问题
 
@@ -177,7 +185,7 @@ npm ci --cache .npm --prefer-offline
 - https://github.com/ds300/patch-package
 - [使用“黑魔法”优雅的修改第三方依赖包](https://fe.zhuanzhuan.com/detail/616013d2abc425a40c9197af)
 
-## 如何并发执行脚本
+### 如何并发执行脚本
 
 - [better-npm-run](https://github.com/benoror/better-npm-run)
 - [npm-run-all](https://github.com/mysticatea/npm-run-all)
