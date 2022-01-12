@@ -66,6 +66,39 @@
 - [npm semver calculator](https://semver.npmjs.com/)
 - [About semantic versioning](https://docs.npmjs.com/about-semantic-versioning)
 
+### 版本锁
+
+- [如何正确使用package-lock.json](https://blog.lishunyang.com/2021/01/how-to-use-package-lock-correctly.html)
+
+#### 是否要使用版本锁？
+
+- [透过 js-beautify@1.7.0 的 Bug 来看，npm 默认的 lock 机制是否重要？](https://www.zhihu.com/question/65536076)
+- [package-lock.json 需要写进 .gitignore 吗？](https://www.zhihu.com/question/264560841)
+- [npm install 生成的package-lock.json是什么文件？有什么用？](https://www.zhihu.com/question/62331583)
+- [为什么我不使用 shrinkwrap（lock）](https://zhuanlan.zhihu.com/p/22934066)
+
+#### 如何解决版本锁冲突问题？
+
+冲突原因
+
+- 不同分支增加了新的包，在合并时会产生冲突
+- 不同的开发者使用了不同的系统，不同的系统之间使用了不同的可选依赖
+- 使用了不稳定的镜像源地址，导致按照原 package-lock.json 中的 resolved 信息无法下载安装，npm 会 fallback 到其他源继续尝试安装相同版本，安装完毕后，npm 会更新 package-lock，将 resolved 更新成最新安装的地址。
+
+    参考 [npm 源问题](https://cnodejs.org/topic/61405b76fe0c5109a7aea0ed)
+
+解决办法
+
+1. 先手动解 package.json 的冲突
+2. 然后运行 `npm install --package-lock-only`，让 npm 自动帮你解冲突。
+
+参考文献
+
+- [Resolving lockfile conflicts](https://docs.npmjs.com/cli/v6/configuring-npm/package-locks#resolving-lockfile-conflicts)
+- [npm-merge-driver](https://github.com/npm/npm-merge-driver)
+- [npm "resolved"-fields in package-lock.json change constantly with JFrog artifactory](https://stackoverflow.com/questions/58030867/npm-resolved-fields-in-package-lock-json-change-constantly-with-jfrog-artifact)
+- [package-lock.json and optional packages](https://github.com/npm/npm/issues/17722)
+
 ## 配置
 
 ### 代理服务器
