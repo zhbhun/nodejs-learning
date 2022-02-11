@@ -1,1 +1,2 @@
 - [shelljs](https://github.com/shelljs/shelljs)
+- [zx](https://github.com/google/zx) - A tool for writing better scripts
