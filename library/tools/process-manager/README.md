@@ -38,6 +38,7 @@
 - [node-supervisor](https://github.com/petruisfan/node-supervisor)
 - [node-dev](https://github.com/fgnass/node-dev)
 - [node-hotswap](https://github.com/rlidwka/node-hotswap)
+- [fkill-cli](https://github.com/sindresorhus/fkill-cli) - Fabulously kill processes. Cross-platform.
 
 ### 对比
 
