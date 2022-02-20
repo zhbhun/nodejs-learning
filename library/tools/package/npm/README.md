@@ -10,6 +10,10 @@
 
 ## 用法
 
+### pacakge.json
+
+- [The Basics of Package.json](https://nodesource.com/blog/the-basics-of-package-json)
+
 ### create / init
 
 - [你不知道的 npm init](https://zhuanlan.zhihu.com/p/45151808)
@@ -254,3 +258,4 @@ npm ci --cache .npm --prefer-offline
 
 - [【原】npm 常用命令详解](https://www.cnblogs.com/PeunZhang/p/5553574.html#npm-update)
 - [Install npm packages globally without sudo on macOS and Linux](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md)
+- []
