@@ -1,9 +1,19 @@
 # 源管理工具
 
 - [nrm](https://github.com/Pana/nrmw)
-- [patch-package](https://github.com/ds300/patch-package)
 
-# 参考文献
+
+## 进阶
+
+### 修改本地依赖包
+
+- [patch-package](https://github.com/ds300/patch-package)
+- [那些修改node_modules的骚操作](https://zhuanlan.zhihu.com/p/310266801)
+- [修改 node_modules 依赖包源码，利用 patch-package 制作该 npm 模块包的补丁](https://zhuanlan.zhihu.com/p/453771807)
+
+### 
+
+## 参考文献
 
 - [npm5 新版功能特性解析及与 yarn 评测对比](https://cloud.tencent.com/community/article/171211)
 - [你不得不知的 package.json 常识](https://nodesource.com/blog/the-basics-of-package-json-in-node-js-and-npm?utm_source=nodeweekly&utm_medium=email)

@@ -184,6 +184,12 @@ npm 遵循[版本语义化规范](https://semver.org/lang/zh-CN/)，`npm install
 npm ci --cache .npm --prefer-offline
 ```
 
+### 重写依赖
+
+- [overrides](https://docs.npmjs.com/cli/v8/configuring-npm/package-json#overrides)
+- [How to Fix Your Security Vulnerabilities with NPM Override](https://medium.com/microsoftazure/how-to-fix-your-security-vulnerabilities-with-npm-override-c4b5be0ab4f6)
+- https://github.com/npm/rfcs/blob/main/accepted/0036-overrides.md
+
 ## 实践
 
 ### 检查更新依赖
