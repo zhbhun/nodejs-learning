@@ -11,7 +11,9 @@
 - [那些修改node_modules的骚操作](https://zhuanlan.zhihu.com/p/310266801)
 - [修改 node_modules 依赖包源码，利用 patch-package 制作该 npm 模块包的补丁](https://zhuanlan.zhihu.com/p/453771807)
 
-### 
+### Github 私有 npm 包服务
+
+- [How to Publish Private NPM Packages With Github Package Registry](https://adevait.com/software/publish-private-npm-packages-with-github-package-registry)
 
 ## 参考文献
 
