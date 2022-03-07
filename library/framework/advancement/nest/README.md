@@ -42,6 +42,10 @@
 
 - [sql-typeorm](./examples/sql-typeorm)
 
+### 版本化
+
+- [How to Use Versioning in NestJS](https://javascript.plainenglish.io/how-to-use-versioning-in-nestjs-45d7c413e72b)
+
 #### 静态文件
 
 - [serve-static](https://github.com/nestjs/serve-static)
