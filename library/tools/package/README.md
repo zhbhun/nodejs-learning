@@ -15,6 +15,12 @@
 
 - [How to Publish Private NPM Packages With Github Package Registry](https://adevait.com/software/publish-private-npm-packages-with-github-package-registry)
 
+### 搭建私有仓库
+
+- [npm私有仓库的搭建](https://github.com/hoc2019/blog/blob/master/article/npm%E7%A7%81%E6%9C%89%E4%BB%93%E5%BA%93%E7%9A%84%E6%90%AD%E5%BB%BA.md)
+- https://github.com/verdaccio/verdaccio
+- https://github.com/cnpm/cnpmjs.org
+
 ## 参考文献
 
 - [npm5 新版功能特性解析及与 yarn 评测对比](https://cloud.tencent.com/community/article/171211)
