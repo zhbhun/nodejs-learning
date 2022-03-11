@@ -212,3 +212,4 @@ TODO
 - [node.js cluster多进程、负载均衡和平滑重启](https://www.cnblogs.com/kenkofox/p/5431643.html)
 - [Node.js cluster 踩坑小结](https://zhuanlan.zhihu.com/p/27069865)
 - [如何让pm2优雅的重启,不断掉tcp ip链接](https://cnodejs.org/topic/586ee5da3ffc84e30620e30e)
+- [A Complete Guide to Node.js Process Management with PM2](https://blog.appsignal.com/2022/03/09/a-complete-guide-to-nodejs-process-management-with-pm2.html)
