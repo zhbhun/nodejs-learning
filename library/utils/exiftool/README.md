@@ -1,0 +1,2 @@
+- https://exiftool.org/
+- https://github.com/photostructure/exiftool-vendored.js
