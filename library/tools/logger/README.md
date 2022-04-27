@@ -1,5 +1,6 @@
 # 日志
 
+- https://github.com/pinojs/pino
 - https://github.com/winstonjs/winston
 - https://github.com/trentm/node-bunyan
 - https://github.com/expressjs/morgan
