@@ -1,0 +1,3 @@
+- [Node.js的底层原理](https://zhuanlan.zhihu.com/p/375276722)
+- [你需要知道的 Node.js 工作原理](https://juejin.cn/post/6872155352649957383)
+- [Node.js 基本原理](https://bingoootang.github.io/blog/2017/04/16/node-intro/)
