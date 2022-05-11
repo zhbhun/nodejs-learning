@@ -1,3 +1,4 @@
 - [Node.js的底层原理](https://zhuanlan.zhihu.com/p/375276722)
 - [你需要知道的 Node.js 工作原理](https://juejin.cn/post/6872155352649957383)
 - [Node.js 基本原理](https://bingoootang.github.io/blog/2017/04/16/node-intro/)
+- [探究NodeJs中EventLoop与V8下的差异性](https://zhuanlan.zhihu.com/p/484258647?utm_oi=35897751896064&utm_source=pocket_mylist)
