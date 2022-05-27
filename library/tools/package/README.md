@@ -2,7 +2,6 @@
 
 - [nrm](https://github.com/Pana/nrmw)
 
-
 ## 进阶
 
 ### 修改本地依赖包
@@ -10,6 +9,15 @@
 - [patch-package](https://github.com/ds300/patch-package)
 - [那些修改node_modules的骚操作](https://zhuanlan.zhihu.com/p/310266801)
 - [修改 node_modules 依赖包源码，利用 patch-package 制作该 npm 模块包的补丁](https://zhuanlan.zhihu.com/p/453771807)
+
+### 选择项依赖
+
+- [Dependency resolution overrides](https://github.com/npm/rfcs/blob/main/accepted/0036-overrides.md)
+- [How do I override nested NPM dependency versions?](https://stackoverflow.com/questions/15806152/how-do-i-override-nested-npm-dependency-versions)
+- [使用 yarn 管理版本的注意事项](https://blog.hakurouken.me/2018/08/05/yarn-versions/)
+- [Yarn upgrade creates duplicate dependency resolution](https://github.com/yarnpkg/yarn/issues/3967)
+- https://docs.npmjs.com/cli/v8/configuring-npm/package-json#overrides
+- https://chore-update--yarnpkg.netlify.app/zh-Hans/docs/selective-version-resolutions
 
 ### Github 私有 npm 包服务
 
