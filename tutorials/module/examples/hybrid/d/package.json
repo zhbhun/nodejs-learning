@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "d",
+  "exports": {
+    "require": "./index.js",
+    "import": "./index.mjs"
+  }
+}
