@@ -4,3 +4,6 @@
 - [typeorm](https://github.com/typeorm/typeorm) - ORM for TypeScript and JavaScript (ES7, ES6, ES5). Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, SAP Hana, WebSQL databases. Works in NodeJS, Browser, Ionic, Cordova and Electron platforms.
 - [leoric](https://github.com/cyjake/leoric) - JavaScript ORM for MySQL, PostgreSQL, and SQLite.
 - [nohm](https://github.com/maritz/nohm) - node.js object relations mapper (orm) for redis
+- Prisma
+
+    - [The Case For Prisma In The Jamstack](https://www.smashingmagazine.com/2022/06/case-prisma-jamstack/)
