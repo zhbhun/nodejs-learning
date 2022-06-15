@@ -10,3 +10,7 @@
 ### [promisify-node](https://github.com/nodegit/promisify-node)
 
 ...
+
+### [pify](https://github.com/sindresorhus/pify)
+
+Promisify a callback-style function
