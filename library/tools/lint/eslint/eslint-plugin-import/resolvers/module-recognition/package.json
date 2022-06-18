@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "lint:extension": "eslint ./extension",
+    "lint:resolver": "eslint ./resolvers"
+  },
+  "dependencies": {
+    "eslint": "^8.0.0",
+    "eslint-plugin-import": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint-import-resolver-alias": "^1.1.2"
+  }
+}
