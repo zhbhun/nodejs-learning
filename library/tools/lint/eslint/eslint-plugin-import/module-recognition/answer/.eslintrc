@@ -8,6 +8,10 @@
   },
   "plugins": ["eslint-plugin-import"],
   "rules": {
-    "import/no-unresolved": "error"
+    "import/no-unresolved": "error",
+    "import/default": "error"
+  },
+  "settings": {
+    "import/extensions": [".js", ".jsx"]
   }
 }
