@@ -110,3 +110,51 @@ Unable to resolve path to module '.../xxx'  import/no-unresolved
         }
     }
     ```
+
+## 配置详解
+
+### `import/extensions`
+
+以 `import/extensions` 为扩展名的模块都会被解析为 ES Module，并检查目标模块的导出，默认 `['.js']`。
+
+```json
+{
+  "settings": {
+    "import/extensions": [
+      ".js",
+      ".jsx"
+    ]
+  }
+}
+```
+
+如果不在该扩展名范围的模块被引入时，可以使用命名导入，也可以用默认导入，eslint-plugin-import 均不会检查，否则会检查。
+
+```js
+// Button.js
+export default () => null
+
+// Button.css
+.button {}
+
+// index.js
+import ButtonCSS, { ButtonMainCSS } from './Button.css' // eslint-plugin-import ignore css module
+import Button, { ButtonMain } from './Button.js' // `ButtonMain not found in './Component.jsx'`
+```
+
+### `import/ignore`
+
+与 `import/extensions` 相反，用于配置哪些模块不要识别为 ESModule，例如：css、scss 和 less 等。
+
+### `import/core-modules`
+
+`import/core-modules` 用于设置当前项目使用了哪些核心模块，默认内置了 Nodejs 的 fs、path 等模块。这样在使用引入这些模块时，就不会出现 unresolve 的情况
+
+### `import/resolver`
+
+eslint-plugin-import 默认实现了类似 Node.js 的模块识别机制，但往往无法支撑前端各种各样的打包环境，例如：webpack 的别名模块，不同框架或语言的自定义扩展名，所以 eslint-plugin-import 开放了 resolver 的自定义配置，可由第三方扩展实现自定义的模块解析器。
+
+- 模块别名：[eslint-import-resolver-alias](https://www.npmjs.com/package/eslint-import-resolver-alias)
+- TypeScript：[eslint-import-resolver-typescript](https://www.npmjs.com/package/eslint-import-resolver-typescript)
+
+
