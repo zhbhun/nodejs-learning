@@ -1,4 +1,4 @@
-# 用法
+# eslint-plugin-import
 
 - 支持配置模块化方案: ES6 Module，CommonJS 和 AMD
 
