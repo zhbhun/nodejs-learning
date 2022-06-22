@@ -8,3 +8,4 @@
 ---
 
 - [is-online](https://github.com/sindresorhus/is-online) - Check if the internet connection is up
+- [public-ip](https://github.com/sindresorhus/public-ip) - Get your public IP address - very fast!
