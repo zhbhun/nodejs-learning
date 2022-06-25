@@ -7,3 +7,5 @@
 - Prisma
 
     - [The Case For Prisma In The Jamstack](https://www.smashingmagazine.com/2022/06/case-prisma-jamstack/)
+
+- [sequelize](https://github.com/sequelize/sequelize) - An easy-to-use and promise-based multi SQL dialects ORM tool for Node.js | Postgres, MySQL, MariaDB, SQLite, MSSQL, Snowflake & DB2
