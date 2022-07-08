@@ -1,0 +1,1 @@
+- [web-worker](https://github.com/developit/web-worker) - Consistent Web Workers in browser and Node.

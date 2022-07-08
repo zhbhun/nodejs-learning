@@ -14,3 +14,7 @@
 ### [pify](https://github.com/sindresorhus/pify)
 
 Promisify a callback-style function
+
+---
+
+- [opossum](https://github.com/nodeshift/opossum) - Node.js circuit breaker - fails fast 

@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "eslint ./"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}

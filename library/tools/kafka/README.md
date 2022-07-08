@@ -1,0 +1,1 @@
+- [kafkajs](https://github.com/tulios/kafkajs) - A modern Apache Kafka client for node.js
