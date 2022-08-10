@@ -165,3 +165,4 @@ var obj = {};
 参考文献
 
 - [为什么说用 babel 编译 typescript 是更好的选择](https://zhuanlan.zhihu.com/p/376867546)
+- [[译] TypeScript 和 Babel：美丽的结合](https://zhuanlan.zhihu.com/p/59614089)
