@@ -1,4 +1,5 @@
-# babel5 升级 babel6
+## babel5 升级 babel6
+
 babel6 存在较大的改动，具体情况如下所示：
 
 1. babel 拆分为多个包
@@ -35,7 +36,8 @@ babel6 存在较大的改动，具体情况如下所示：
 - [Webpack babel 6 ES6 decorators](http://stackoverflow.com/questions/33801311/webpack-babel-6-es6-decorators)
 - [升级 babel 遇到的几个问题](https://chemzqm.me/babel-problems)
 
-# babel6 module
+## babel6 module
+
 问题
 
 1. 为什么 import 使用解构方式引入 export default 返回的是 undefined？
@@ -63,7 +65,8 @@ ES 是未来的趋势，尽量使用 ES 模块化方案
 
 3. ES import 引用 CommonJS 规范的模块，不用担心任何问题，因为 babel 的工具函数会在 import 引入模块的时候，对模块输出进行特殊处理（模拟 ES 模块输出的结构）。
 
-# babel-polyfill vs babel-runtime
+##  babel-polyfill vs babel-runtime
+
 babel-polyfill 使用场景
 
 Babel 默认只转换新的 JavaScript 语法，而不转换新的 API。例如，Iterator、Generator、Set、Maps、Proxy、Reflect、Symbol、Promise 等全局对象，以及一些定义在全局对象上的方法（比如 Object.assign）都不会转译。如果想使用这些新的对象和方法，必须使用 babel-polyfill，为当前环境提供一个垫片。
@@ -138,20 +141,27 @@ var obj = {};
 - http://www.ruanyifeng.com/blog/2016/01/babel.html#comment-367093
 - [Babel 6 babel-polyfill， babel-plugin-external-helpers-2 babel-plugin-transform-runtime如何选择](https://cnodejs.org/topic/56a836e7073124894b190b60)
 
-# IE8 兼容性问题
-TODO
+## 对比 TypeScript
 
+- babel
 
-# 重复配置插件
+    优点
 
-# babili
-TODO
+    - 支持还在提案中的非标准的语法
+    - 支持按需引入 polyfill
+    - 支持自定义插件扩展
 
-# babylon
-TODO
+    缺点
 
-# TODO
-- [super() not calling parent's constructor on IE9](https://github.com/babel/babelify/issues/133)
+    - 只能做单文件编译，不支持多文件的类型检查
+    - 不支持部分 ts 语法，例如：不支持 const enum、支持 namespace 跨文件合并等
 
-# 支持 `async/await` 
-- [以 async/await 为例，说明 babel 插件怎么搭](http://io.upyun.com/2017/06/06/babel-async/)
+- ts
+
+    优点：支持多文件类型检查
+
+    缺点：不支持按需引入 polyfill，不支持非标准的语法
+
+参考文献
+
+- [为什么说用 babel 编译 typescript 是更好的选择](https://zhuanlan.zhihu.com/p/376867546)
