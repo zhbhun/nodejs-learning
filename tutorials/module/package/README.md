@@ -49,6 +49,14 @@
 - 兼容性：https://webpack.js.org/guides/package-exports/#conditions
 
 
+问题
+
+- 样式导出是否支持混用后缀
+
+    import 'xxx/style' => xxx/index.less
+
+- ...
+
 参考
 
 - [Package entry points](https://nodejs.org/api/packages.html#package-entry-points)
