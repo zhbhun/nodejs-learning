@@ -61,3 +61,5 @@
 
 - [Package entry points](https://nodejs.org/api/packages.html#package-entry-points)
 - [Package exports](https://webpack.js.org/guides/package-exports/#target-environment)
+- [Node 最新 Module 导入导出规范](https://juejin.cn/post/6972006652631318564)
+- [package.json 中的 exports、main、module 字段](https://juejin.cn/post/7132326156329549838)
