@@ -33,7 +33,7 @@ Babel
 
     如何自定义 preset，以及一些社区有用的 preset。
 
-- [7. 常见问题](./5-issues)
+- [7. 常见问题](./7-issues)
 
 ## 文档
 

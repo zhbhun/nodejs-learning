@@ -23,6 +23,10 @@
 
 - [npm link](http://javascript.ruanyifeng.com/nodejs/npm.html#toc18)
 
+### list / query
+
+- [Introducing the new npm Dependency Selector Syntax](https://github.blog/changelog/2022-08-03-introducing-the-new-npm-dependency-selector-syntax/)
+
 ### 发布
 
 - [如何发布 Node 模块到 NPM 社区](http://weizhifeng.net/how-to-publish-a-node-module.html)
