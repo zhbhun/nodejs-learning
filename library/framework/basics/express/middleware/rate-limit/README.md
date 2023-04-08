@@ -1,0 +1,5 @@
+- [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit) - Basic rate-limiting middleware for express
+- [node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible) - Count and limit requests by key with atomic increments in single process or distributed environment.
+- [express-brute](https://github.com/AdamPflug/express-brute) - Brute-force protection middleware for express routes by rate limiting incoming requests
+- [express-limiter](https://github.com/ded/express-limiter) - Rate limiting middleware for Express
+- [express-slow-down](https://github.com/express-rate-limit/express-slow-down) - Slow down repeated requests; use as an alternative (or addition) to express-rate-limit
