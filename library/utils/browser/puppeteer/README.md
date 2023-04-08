@@ -8,6 +8,9 @@
 
 - [puppeteer-extra-plugin-recaptch](https://github.com/berstend/puppeteer-extra) - Teach puppeteer new tricks through plugins.
 
+    - [如何使用2Captcha的谷歌拓展程序绕过验证码](https://zhuanlan.zhihu.com/p/374853811)
+    - [How to Bypass Cloudflare in 2023: The 8 Best Methods](https://www.zenrows.com/blog/bypass-cloudflare#how-cloudflare-detects-bots)
+
 ## 常见问题
 
 ### 截图乱码
