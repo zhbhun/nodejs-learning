@@ -4,6 +4,10 @@
 - [源码仓库](https://github.com/puppeteer/puppeteer)
 - [在线实验](https://try-puppeteer.appspot.com/)
 
+## 插件
+
+- [puppeteer-extra-plugin-recaptch](https://github.com/berstend/puppeteer-extra) - Teach puppeteer new tricks through plugins.
+
 ## 常见问题
 
 ### 截图乱码
