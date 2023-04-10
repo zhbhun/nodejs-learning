@@ -24,21 +24,22 @@ Express
 - [app.get](http://expressjs.com/en/4x/api.html#app.get)
 - [app.METHOD](http://expressjs.com/en/4x/api.html#app.METHOD)
 
+### 模板
+
+- https://github.com/expressjs/generator
+- [Express application generator](https://expressjs.com/en/starter/generator.html)
+- [hackathon-starter](https://github.com/sahat/hackathon-starter)
+- [express-es6-rest-api](https://github.com/developit/express-es6-rest-api)
+
+---
+
+locals
+
+- [app.locals](https://expressjs.com/en/4x/api.html#app.locals)
+- [res.locals](http://expressjs.com/en/api.html#res.locals)
+- [req.locals vs. res.locals vs. res.data vs. req.data vs. app.locals in Express middleware](https://stackoverflow.com/questions/33451053/req-locals-vs-res-locals-vs-res-data-vs-req-data-vs-app-locals-in-express-mi)
+
 ### 中间件
-
-#### 自定义中间件
-
-...
-
-#### 内置中间件
-
-- [express.json](http://expressjs.com/en/4x/api.html#express.json)
-- [express.static](http://expressjs.com/en/4x/api.html#express.static)
-- [express.Router](http://expressjs.com/en/4x/api.html#express.router)
-- [express.urlencoded](http://expressjs.com/en/4x/api.html#express.urlencoded)
-
-
-## 中间件
 
 - 校验
 
@@ -65,12 +66,17 @@ Express
 
     - [serve-favicon](https://github.com/expressjs/serve-favicon)
 
-## 模板
+#### 自定义中间件
 
-- https://github.com/expressjs/generator
-- [Express application generator](https://expressjs.com/en/starter/generator.html)
-- [hackathon-starter](https://github.com/sahat/hackathon-starter)
-- [express-es6-rest-api](https://github.com/developit/express-es6-rest-api)
+...
+
+#### 内置中间件
+
+- [express.json](http://expressjs.com/en/4x/api.html#express.json)
+- [express.static](http://expressjs.com/en/4x/api.html#express.static)
+- [express.Router](http://expressjs.com/en/4x/api.html#express.router)
+- [express.urlencoded](http://expressjs.com/en/4x/api.html#express.urlencoded)
+
 
 ## 实践
 
