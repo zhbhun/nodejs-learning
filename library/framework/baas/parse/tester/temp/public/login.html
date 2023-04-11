@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <form id="login-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" /><br /><br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" /><br /><br />
+      <input type="submit" value="Login" />
+    </form>
+
+    <script src="https://unpkg.com/parse/dist/parse.min.js"></script>
+    <script>
+      // 初始化 parse-server 的连接信息
+      Parse.initialize("myAppId");
+      Parse.serverURL = "http://localhost:4040/parse";
+
+      // ().then(console.log);
+      console.log(Parse.User.current());
+
+      // 监听登录表单的提交事件
+      document
+        .getElementById("login-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // 阻止表单的默认提交行为
+
+          // 获取用户名和密码
+          var username = document.getElementById("username").value;
+          var password = document.getElementById("password").value;
+
+          // 调用 Parse.User.logIn() 方法登录
+          Parse.User.logIn(username, password)
+            .then(function (user) {
+              console.log("User logged in:", user);
+            })
+            .catch(function (error) {
+              console.error("Error logging in:", error);
+            });
+        });
+    </script>
+  </body>
+</html>
