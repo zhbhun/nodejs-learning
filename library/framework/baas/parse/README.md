@@ -1,8 +1,10 @@
 # [parse](https://github.com/parse-community)
 
-- [parse-server](https://github.com/parse-community/parse-server)
+- [parse-server](https://github.com/parse-community/parse-server) / https://docs.parseplatform.org/parse-server/guide/
 - [parse-dashboard](https://github.com/parse-community/parse-dashboard)
-- [Parse-SDK-JS](https://github.com/parse-community/Parse-SDK-JS)
+- [Parse-SDK-JS](https://github.com/parse-community/Parse-SDK-JS) / httpshttps://docs.parseplatform.org
+- [parse-server-modules](https://github.com/parse-server-modules)
+- [parse-server-example](https://github.com/parse-community/parse-server-example)
 
 ## 教程
 
