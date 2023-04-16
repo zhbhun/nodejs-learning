@@ -10,7 +10,7 @@
 
 - [实践篇：pnpm 解决我哪些痛点？](https://juejin.cn/post/7036319707590295565)
 
-## 问题
+## FAQ
 
 ### 如何升级 workspaces 的关联依赖
 
@@ -18,3 +18,7 @@
 pnpm --recursive update xxx # 升级指定的包
 pnpm prune # 清除旧版本依赖
 ```
+
+### missing peer dependencies after installation 
+
+https://github.com/pnpm/pnpm/issues/4183#issuecomment-1008045670
