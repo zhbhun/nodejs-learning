@@ -258,3 +258,75 @@ Parse.Cloud.beforeSave("MyClass", async (request) => {
 接下来，请确保部署云代码并正确配置 Parse 服务器以使用此文件。
 
 这样，在保存 MyClass 对象之前，系统将自动检查用户是否已登录且已绑定对象。如果没有绑定，它将抛出一个错误。如果没有登录，它会将当前登录用户附加到对象的 _User 字段。
+
+### parse server 如何与现有的账号系统集成
+
+要将 Parse Server 集成到现有的账号系统，你可以采取以下几个步骤：
+
+创建自定义认证适配器：根据你的现有账户系统创建一个自定义认证适配器。这是一个 JavaScript 模块，它需要提供一个名为 authenticate 的方法，该方法负责验证用户的凭据（例如用户名和密码），并返回用户数据。
+示例自定义认证适配器：
+
+```js
+const CustomAuthAdapter = {
+  authenticate: async function (options) {
+    // 在此处调用你的现有账户系统 API 进行身份验证
+    // 如果验证成功，返回用户数据；如果失败，抛出错误。
+  },
+};
+
+module.exports = CustomAuthAdapter;
+```
+
+配置 Parse Server：在 Parse Server 配置中指定你的自定义认证适配器。
+
+```js
+const express = require('express');
+const { ParseServer } = require('parse-server');
+const CustomAuthAdapter = require('./path/to/CustomAuthAdapter');
+
+const app = express();
+
+const parseServer = new ParseServer({
+  databaseURI: 'mongodb://your.mongo.uri',
+  appId: 'yourAppId',
+  masterKey: 'yourMasterKey',
+  serverURL: 'http://localhost:1337/parse',
+  auth: {
+    customAuth: {
+      module: CustomAuthAdapter,
+    },
+  },
+});
+
+app.use('/parse', parseServer);
+
+const port = process.env.PORT || 1337;
+app.listen(port, () => {
+  console.log(`Parse Server running at http://localhost:${port}/parse`);
+});
+```
+
+这段代码配置了一个使用自定义认证适配器的 Parse Server 实例。
+
+在客户端使用自定义认证：在客户端应用中，使用自定义认证进行登录。
+以下是一个 JavaScript 示例，使用 Parse SDK 登录时使用自定义认证：
+
+```js
+const { User } = require('parse/node');
+
+async function loginWithCustomAuth(username, password) {
+  try {
+    const response = await User.logInWith(
+      'customAuth', // 此名称与 Parse Server 配置中的名称匹配 
+      { username, password }
+    );
+    console.log('User logged in:', response);
+  } catch (error) {
+    console.error('Error logging in:', error);
+  }
+}
+```
+
+现在，当你调用 loginWithCustomAuth 函数并传入用户名和密码时，Parse Server 将使用你的自定义认证适配器验证用户凭据。
+
+通过这种方式，你可以将 Parse Server 集成到现有的账户系统，并继续利用 Parse Server 提供的其他功能。
