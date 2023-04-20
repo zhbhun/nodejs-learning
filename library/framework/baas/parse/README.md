@@ -54,9 +54,18 @@
 
 - https://github.com/parse-community/parse-server#logging
 
-## GraphQL
+### GraphQL
 
 - https://github.com/parse-community/parse-server#graphql
+
+## FAQ
+
+### 如何开启数据事务
+
+- [Performing batch transactions](https://github.com/parse-community/Parse-SDK-JS/issues/922)
+- [Transactions in Parse Server](https://github.com/parse-community/parse-server/issues/4589)
+
+
 ---
 
 https://www.npmjs.com/search?q=scope%3Aparse
