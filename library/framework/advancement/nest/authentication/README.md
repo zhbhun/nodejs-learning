@@ -1,1 +1,4 @@
+- https://docs.nestjs.com/security/authentication
+- https://github.com/nestjs/passport
 - [认证（Authentication）](http://static.kancloud.cn/juukee/nestjs/2678243)
+- [Implementing secure single sign-on authentication in NestJS](https://blog.logrocket.com/implement-secure-single-sign-on-nestjs-google/)
