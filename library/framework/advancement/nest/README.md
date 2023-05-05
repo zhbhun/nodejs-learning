@@ -1,7 +1,28 @@
 # [Nest](https://github.com/nestjs/nest)
 
-- [官方网站](https://nestjs.com)
-- [官方文档](https://docs.nestjs.com)
+```mermaid
+mindmap
+  root((Nest.js))
+    Basic
+      Controlers
+        ...
+      Providers
+      Modules
+      Middlewares
+      Interceptors
+      Expeption filers
+      Guards
+      Pipes
+    Advance
+      Logging
+      Queue
+        Libraries
+          @nestjs/bull
+          bull
+    ...
+```
+
+
 
 ## 介绍
 
