@@ -1,0 +1,6 @@
+- [Lychee](https://github.com/LycheeOrg/Lychee) - A great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos.
+- [kutt](https://github.com/thedevs-network/kutt) - Free Modern URL Shortener.
+- [thumbsup](https://github.com/thumbsup/thumbsup) - Generate static HTML photo / video galleries
+- [filegator](https://github.com/filegator/filegator) - Powerful Multi-User File Manager
+- [node-gallery](https://github.com/cianclarke/node-gallery) - NodeJS Photo Gallery
+- [photoprism](https://github.com/photoprism/photoprism) - AI-Powered Photos App for the Decentralized Web
