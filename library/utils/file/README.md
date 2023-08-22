@@ -1,6 +1,7 @@
 # 文件
 
 - [fast-glob](https://github.com/mrmlnc/fast-glob) - It's a very fast and efficient glob library for Node.js
+- [mem-fs-editor](https://github.com/SBoudrias/mem-fs-editor) - File edition helpers working on top of mem-fs
 
 ## 删除
 
