@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ai_effects",
+  "info": {
+    "singularName": "ai-effect",
+    "pluralName": "ai-effects",
+    "displayName": "AI Effect",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "style": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "string"
+    },
+    "api": {
+      "type": "string"
+    },
+    "video": {
+      "type": "component",
+      "repeatable": true,
+      "component": "i18n.i18n-video"
+    },
+    "poster": {
+      "type": "component",
+      "repeatable": true,
+      "component": "i18n.i18-n-image"
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "i18n.i18-n-image"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::ai-category.ai-category",
+      "mappedBy": "effects"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_i18_n_i18_n_images",
+  "info": {
+    "displayName": "I18N Image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lang": {
+      "type": "enumeration",
+      "enum": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "th"
+      ],
+      "required": true,
+      "default": "en"
+    },
+    "value": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

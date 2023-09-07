@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "beauty_plus_ais",
+  "info": {
+    "singularName": "beauty-plus-ai",
+    "pluralName": "beauty-plus-ais",
+    "displayName": "BeautyPlus AI",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::ai-category.ai-category"
+    },
+    "bannerVideo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "i18n.i18n-video",
+      "required": true
+    },
+    "bannerPoster": {
+      "type": "component",
+      "repeatable": true,
+      "component": "i18n.i18-n-image"
+    }
+  }
+}
