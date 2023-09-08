@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * ai-effect service
+ * singleton service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::ai-effect.ai-effect');
+module.exports = createCoreService('api::singleton.singleton');

@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testers",
+  "info": {
+    "singularName": "tester",
+    "pluralName": "testers",
+    "displayName": "Tester",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "longText": {
+      "type": "text"
+    },
+    "richText": {
+      "type": "richtext"
+    },
+    "password": {
+      "type": "password"
+    },
+    "number": {
+      "type": "integer"
+    },
+    "enumeration": {
+      "type": "enumeration",
+      "enum": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "date": {
+      "type": "date"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "boolean": {
+      "type": "boolean"
+    },
+    "json": {
+      "type": "json"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    },
+    "uid": {
+      "type": "uid"
+    },
+    "tester1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tester.tester1"
+    },
+    "tester2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tester.tester1"
+    }
+  }
+}

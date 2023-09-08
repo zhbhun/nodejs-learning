@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * ai-effect router
+ * tester router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::ai-effect.ai-effect');
+module.exports = createCoreRouter('api::tester.tester');

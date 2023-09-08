@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * ai-category service
+ * tester service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::ai-category.ai-category');
+module.exports = createCoreService('api::tester.tester');

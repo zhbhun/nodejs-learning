@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * ai-category router
+ * singleton router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::ai-category.ai-category');
+module.exports = createCoreRouter('api::singleton.singleton');

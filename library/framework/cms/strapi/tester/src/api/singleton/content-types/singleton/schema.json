@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "singletons",
+  "info": {
+    "singularName": "singleton",
+    "pluralName": "singletons",
+    "displayName": "singleton"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}
