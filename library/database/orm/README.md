@@ -10,6 +10,7 @@
 
     - [The Case For Prisma In The Jamstack](https://www.smashingmagazine.com/2022/06/case-prisma-jamstack/)
 
+- [drizzle-orm](https://github.com/drizzle-team/drizzle-orm)
 
 ## 对比
 
