@@ -1,0 +1,1 @@
+- [wasp](https://github.com/wasp-lang/wasp) - The fastest way to develop full-stack web apps with React & Node.js.
