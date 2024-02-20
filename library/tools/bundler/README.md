@@ -2,6 +2,7 @@
 
 - vite
 - esbuild
+- [farm](https://github.com/farm-fe/farm)
 - swc
 - turborepo
 - Nx
