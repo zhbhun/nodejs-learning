@@ -2,6 +2,7 @@
 
 - vite
 - esbuild
+- [rspack](https://github.com/web-infra-dev/rspack)
 - [farm](https://github.com/farm-fe/farm)
 - swc
 - turborepo
