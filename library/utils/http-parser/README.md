@@ -1,0 +1,1 @@
+- [negotiator](https://www.npmjs.com/package/negotiator) - An HTTP content negotiator for Node.js
