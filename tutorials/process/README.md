@@ -15,7 +15,6 @@
     - `process.execPath`：node 程序运行的绝对路径
     - `process.argv0`：命令行首个参数，通常是指 nodejs 程序所在路径
 
-
 ## 参考文献
 
 - [Node.js进程通信模块child_process](http://blog.fens.me/nodejs-child-process/)

@@ -9,6 +9,10 @@ Node.js
 - [Node.js Production Practices](https://www.joyent.com/node-js/production)
 - [nodejs-reference-architecture](https://github.com/nodeshift/nodejs-reference-architecture)
 
+## Book
+
+- [《深入浅出 Node.js》](https://book.douban.com/subject/25768396/)
+
 # TODO
 
 - [Node 在有赞的实践](https://juejin.im/post/5b0388006fb9a07aa213ae16)

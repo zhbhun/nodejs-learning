@@ -1,3 +1,18 @@
+## 模块分类
+
+- 自由模块：
+
+    - C/C++ 内建模块：buffer、crypto、evals、fs、os 等
+    - Javascript 核心模块：对内建模块的包装
+
+- 第三方模块：
+
+    - C/C++ 扩展模块
+    - Javascript 文件模块
+
+
+---
+
 - [node-resolve](https://github.com/substack/node-resolve) - Implements the node.js require.resolve() algorithm.
 - [node-require-directory](https://github.com/troygoode/node-require-directory)
 
