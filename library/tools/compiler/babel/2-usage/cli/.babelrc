@@ -1,5 +1,0 @@
-{
-  "presets": [
-    ["@babel/preset-env", { "targets": "iOS >= 8", "useBuiltIns": "usage" }]
-  ]
-}
