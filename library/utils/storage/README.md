@@ -1,2 +1,4 @@
 - [keyv](https://keyv.org/docs/) - Keyv provides a consistent interface for key-value storage across multiple backends via storage adapters. It supports TTL based expiry, making it suitable as a cache or a persistent key-value store. Follow the steps below to get you up and running.
-
+- [Dexie.js](https://github.com/dexie/Dexie.js) - A Minimalistic Wrapper for IndexedDB
+- [localForage](https://github.com/localForage/localForage) - Offline storage, improved. Wraps IndexedDB, WebSQL, or localStorage using a simple but powerful API.
+- [idb](https://github.com/jakearchibald/idb) - IndexedDB, but with promises
