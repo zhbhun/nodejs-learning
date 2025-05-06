@@ -1,1 +1,3 @@
+- [next-auth](https://github.com/nextauthjs/next-auth) - Authentication for the Web.
+- [better-auth](https://github.com/better-auth/better-auth) - The most comprehensive authentication framework for TypeScript
 - [lucia](https://github.com/lucia-auth/lucia)
