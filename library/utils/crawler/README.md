@@ -1,0 +1,4 @@
+- [readability](https://github.com/mozilla/readability) - A standalone version of the readability lib
+- [parser](https://github.com/postlight/parser) - Extract meaningful content from the chaos of a web page
+- [readability](https://github.com/luin/readability) -  Turn any web page into a clean view
+- [trafilatura](https://github.com/adbar/trafilatura) - Python & Command-line tool to gather text and metadata on the Web: Crawling, scraping, extraction, output as CSV, JSON, HTML, MD, TXT, XML
